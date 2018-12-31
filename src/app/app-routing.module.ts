@@ -6,7 +6,7 @@ const routes: Routes = [
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   { path: 'endemic', loadChildren: './endemic/endemic.module#EndemicPageModule' },
   { path: 'migrant', loadChildren: './migrant/migrant.module#MigrantPageModule' },
-  { path: 'tabs/birds-list', loadChildren: './birds-list/birds-list.module#BirdsListPageModule' }
+  { path: 'tabs/birds-list/:type/:id', loadChildren: './birds-list/birds-list.module#BirdsListPageModule' }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

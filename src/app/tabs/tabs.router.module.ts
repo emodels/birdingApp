@@ -36,7 +36,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'birds-list',
+        path: 'birds-list/:type/:id',
         children: [
           {
             path: '',

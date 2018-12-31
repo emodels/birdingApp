@@ -14,6 +14,8 @@ export class HomePage implements OnInit {
   ngOnInit() {
   }
 
+  searchQuery: string;
+
   categories = [
     {
       name: 'Grebes',
@@ -27,7 +29,11 @@ export class HomePage implements OnInit {
 
   viewCategory(any): void {
 
-      //this.navCtrl.navigateForward('/birds-list/category/' + any.name);
-      this.navCtrl.navigateForward('tabs/birds-list');
+    this.navCtrl.navigateForward('tabs/birds-list/category/' + any.name);
+  }
+
+  searchBirds(any): void {
+
+      this.navCtrl.navigateForward('tabs/birds-list/search/' + this.searchQuery);
   }
 }
