@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-birds-list',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BirdsListPage implements OnInit {
 
-  constructor() { }
+  birds: any;
+
+  constructor(public dataService: DataService) { }
 
   ngOnInit() {
+    this.dataService.getBirds().subscribe(birds => this.birds = birds);
   }
 
 }

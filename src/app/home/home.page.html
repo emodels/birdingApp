@@ -14,7 +14,7 @@
     </ion-list-header>
     <ion-item *ngFor="let category of categories" (click)="viewCategory(category)">
        <ion-avatar slot="start">
-           <img [src]="category.image"/>
+           <img [src]="'assets/images/' + category.image"/>
        </ion-avatar>
        <ion-label><h2>{{category.name}} / {{category.sinhala}}</h2></ion-label>
        <ion-icon name="arrow-forward" color="medium" slot="end"></ion-icon>
