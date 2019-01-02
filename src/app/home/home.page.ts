@@ -21,7 +21,7 @@ export class HomePage implements OnInit {
 
   viewCategory(any): void {
 
-    this.navCtrl.navigateForward('tabs/birds-list/category/' + any.name);
+    this.navCtrl.navigateForward('tabs/birds-list/category/' + any.id);
   }
 
   searchBirds(any): void {
