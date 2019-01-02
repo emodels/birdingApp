@@ -19,21 +19,13 @@ const routes: Routes = [
       },
       {
         path: 'endemic',
-        children: [
-          {
-            path: '',
-            loadChildren: '../endemic/endemic.module#EndemicPageModule'
-          }
-        ]
+        redirectTo: '/tabs/birds-list/endemic/all',
+        pathMatch: 'full'
       },
       {
         path: 'migrant',
-        children: [
-          {
-            path: '',
-            loadChildren: '../migrant/migrant.module#MigrantPageModule'
-          }
-        ]
+        redirectTo: '/tabs/birds-list/migrant/all',
+        pathMatch: 'full'
       },
       {
         path: 'birds-list/:type/:id',
@@ -41,6 +33,15 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: '../birds-list/birds-list.module#BirdsListPageModule'
+          }
+        ]
+      },
+      {
+        path: 'bird',
+        children: [
+          {
+            path: '',
+            loadChildren: '../bird/bird.module#BirdPageModule'
           }
         ]
       },

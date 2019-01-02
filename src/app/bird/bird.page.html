@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="dark" (click)="goBack()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{bird.name}} / {{bird.sinhala}}</ion-title>
+    <ion-avatar slot="end">
+      <img [src]="'assets/images/' + bird.image"/>
+    </ion-avatar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card>
+    <ion-img src="assets/images/{{bird.image}}"></ion-img>
+    <ion-card-header>
+      <ion-card-title>{{bird.name}} / {{bird.sinhala}}</ion-card-title>
+      <ion-label>
+        <h3 class="ion-padding-top"><b>Scientific Name</b></h3>
+        <h4>{{bird.scientific}}</h4>
+      </ion-label>
+      <ion-label>
+        <h3 class="ion-padding-top"><b>Diversity</b></h3>
+        <h4>{{bird.code}}</h4>
+      </ion-label>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{bird.desc}}</p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

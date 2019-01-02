@@ -1,22 +1,45 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Birds Listing</ion-title>
+      <ion-buttons slot="start">
+          <ion-button color="dark" (click)="goBack()">
+              <ion-icon name="arrow-back"></ion-icon>
+          </ion-button>
+      </ion-buttons>
+      <ion-title>{{title}}</ion-title>
+      <ion-avatar slot="end" *ngIf="titleImage">
+          <img [src]="'assets/images/' + titleImage"/>
+      </ion-avatar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
 
-  <ion-list>
-    <ion-list-header>
-      <ion-label>Birds Listing</ion-label>
-    </ion-list-header>
-    <ion-item *ngFor="let bird of birds" (click)="viewBird(bird)">
-      <ion-avatar slot="start">
-        <img [src]="bird.image"/>
-      </ion-avatar>
-      <ion-label><h2>{{bird.name}}</h2></ion-label>
-      <ion-icon name="arrow-forward" color="medium" slot="end"></ion-icon>
-    </ion-item>
-  </ion-list>
+    <ion-list>
+        <ion-list-header>
+            <ion-label>Enlarge Images</ion-label>
+            <ion-toggle [(ngModel)]="enlargeImages"></ion-toggle>
+        </ion-list-header>
+
+        <ion-item-divider color="medium">
+          <ion-label>Birds Listing</ion-label>
+        </ion-item-divider>
+
+        <ion-item *ngFor="let bird of birds" (click)="viewBird(bird)">
+
+          <ion-avatar slot="start" *ngIf="!enlargeImages">
+              <img [src]="'assets/images/' + bird.image"/>
+          </ion-avatar>
+          <ion-label *ngIf="!enlargeImages"><h2>{{bird.name}}</h2></ion-label>
+          <ion-icon name="arrow-forward" color="medium" slot="end" *ngIf="!enlargeImages"></ion-icon>
+
+          <ion-card *ngIf="enlargeImages">
+              <ion-img src="assets/images/{{bird.image}}"></ion-img>
+              <ion-card-header>
+                  <ion-card-title>{{bird.name}} / {{bird.sinhala}}</ion-card-title>
+              </ion-card-header>
+          </ion-card>
+
+        </ion-item>
+    </ion-list>
 
 </ion-content>

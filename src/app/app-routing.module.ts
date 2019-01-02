@@ -4,9 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
-  { path: 'endemic', loadChildren: './endemic/endemic.module#EndemicPageModule' },
-  { path: 'migrant', loadChildren: './migrant/migrant.module#MigrantPageModule' },
-  { path: 'tabs/birds-list/:type/:id', loadChildren: './birds-list/birds-list.module#BirdsListPageModule' }
+  { path: 'tabs/birds-list/:type/:id', loadChildren: './birds-list/birds-list.module#BirdsListPageModule' },
+  { path: 'bird', loadChildren: './bird/bird.module#BirdPageModule' }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

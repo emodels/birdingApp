@@ -10,6 +10,7 @@ export class DataService {
 
   constructor(private http: HttpClient) { }
 
+  public birdSelected: any;
   private categories: Observable<any> = null;
   private birds: Observable<any> = null;
 
