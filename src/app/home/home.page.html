@@ -7,14 +7,19 @@
 
 <ion-content padding>
 
-    <ion-grid>
+    <!--<ion-grid>
         <ion-row>
             <ion-col class="background-img">
 
             </ion-col>
         </ion-row>
-    </ion-grid>
+    </ion-grid>-->
 
+    <ion-slides pager="false" [options]="{autoplay:true}">
+        <ion-slide *ngFor="let category of categories" (click)="viewCategory(category)">
+            <ion-img [src]="'assets/images/' + category.image"></ion-img>
+        </ion-slide>
+    </ion-slides>
 
   <ion-list>
     <ion-list-header>
@@ -22,7 +27,7 @@
     </ion-list-header>
     <ion-item *ngFor="let category of categories" (click)="viewCategory(category)">
        <ion-avatar slot="start">
-           <img [src]="'assets/images/' + category.image"/>
+           <ion-img [src]="'assets/images/' + category.image"></ion-img>
        </ion-avatar>
        <ion-label><h2>{{category.name}} / {{category.sinhala}}</h2></ion-label>
        <ion-icon name="arrow-forward" color="medium" slot="end"></ion-icon>
