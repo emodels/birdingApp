@@ -9,7 +9,12 @@
 
     <ion-slides pager="false" [options]="{autoplay:true}">
         <ion-slide *ngFor="let category of categories" (click)="viewCategory(category)">
-            <ion-img [src]="'assets/images/' + category.image"></ion-img>
+            <ion-card>
+                <ion-img src="assets/images/{{category.image}}"></ion-img>
+                <ion-card-header>
+                    <ion-card-title>{{category.name}} / {{category.sinhala}}</ion-card-title>
+                </ion-card-header>
+            </ion-card>
         </ion-slide>
     </ion-slides>
 
