@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar class="header-bg">
+  <ion-toolbar color="green">
     <ion-title></ion-title>
       <ion-searchbar [(ngModel)]="searchQuery" placeholder="Birds in Sri Lanka" (change)="searchBirds($event)"></ion-searchbar>
   </ion-toolbar>
@@ -10,7 +10,7 @@
     <ion-slides pager="false" [options]="{autoplay:true}">
         <ion-slide *ngFor="let category of categories" (click)="viewCategory(category)">
             <ion-card>
-                <ion-img src="assets/images/{{category.image}}"></ion-img>
+                <ion-img src="assets/images/category/{{category.image}}"></ion-img>
                 <ion-card-header>
                     <ion-card-title>{{category.name}} / {{category.sinhala}}</ion-card-title>
                 </ion-card-header>
@@ -24,7 +24,7 @@
     </ion-list-header>
     <ion-item *ngFor="let category of categories" (click)="viewCategory(category)">
        <ion-avatar slot="start">
-           <ion-img [src]="'assets/images/' + category.image"></ion-img>
+           <ion-img [src]="'assets/images/category/' + category.image"></ion-img>
        </ion-avatar>
        <ion-label><h2>{{category.name}} / {{category.sinhala}}</h2></ion-label>
        <ion-icon name="arrow-forward" color="medium" slot="end"></ion-icon>

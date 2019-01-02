@@ -108,295 +108,295 @@
     "image": "stilt_avocet.jpg"
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "Thick-knees",
     "sinhala": "ගොළුකිරලුවෝ",
     "image": "thick_knees.jpg"
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "Pratincoles",
     "sinhala": "ජවසැරියෝ",
     "image": "pratincoles.jpg"
   },
   {
-    "id": 20,
+    "id": 21,
     "name": "Plovers",
     "sinhala": "ඔලෙවියෝ",
     "image": "plovers.jpg"
   },
   {
-    "id": 21,
+    "id": 22,
     "name": "Sandpipers & Stints",
     "sinhala": "හින්නෝ සහ සිබිල්ලෝ",
     "image": "sandpipers_stints.jpg"
   },
   {
-    "id": 22,
+    "id": 23,
     "name": "Gulls",
     "sinhala": "ගලුවියෝ",
     "image": "gulls.jpg"
   },
   {
-    "id": 23,
+    "id": 24,
     "name": "Terns",
     "sinhala": "ළිහිණියෝ",
     "image": "terns.jpg"
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "Pigeons & Doves",
     "sinhala": "පරවියෝ සහ කොබෙයියෝ",
     "image": "pigeons_doves.jpg"
   },
   {
-    "id": 25,
+    "id": 26,
     "name": "Parakeets & Lorikeet",
     "sinhala": "ගිරවු සහ ගිරාමලිත්තෝ",
     "image": "parakeets_lorikeet.jpg"
   },
   {
-    "id": 26,
+    "id": 27,
     "name": "Cuckoos",
     "sinhala": "කොහෝ",
     "image": "Cuckoos.jpg"
   },
   {
-    "id": 27,
+    "id": 28,
     "name": "Owls",
     "sinhala": "බකමූණෝ",
     "image": "owls.jpg"
   },
   {
-    "id": 28,
+    "id": 29,
     "name": "Frogmouth",
     "sinhala": "මැඩිමුහුණෝ",
     "image": "frogmouth.jpg"
   },
   {
-    "id": 29,
+    "id": 30,
     "name": "Nightjars",
     "sinhala": "බිම්බස්සෝ",
     "image": "nightjars.jpg"
   },
   {
-    "id": 30,
+    "id": 31,
     "name": "Tree-Swift",
     "sinhala": "රුක්-තුරිතයෝ",
     "image": "tree_swift.jpg"
   },
   {
-    "id": 31,
+    "id": 32,
     "name": "Swifts",
     "sinhala": "තුරිතයෝ",
     "image": "swift.jpg"
   },
   {
-    "id": 32,
+    "id": 33,
     "name": "Trogon",
     "sinhala": "කවුඩෝ",
     "image": "trogon.jpg"
   },
   {
-    "id": 33,
+    "id": 34,
     "name": "Kingfishers",
     "sinhala": "පිළිහුඩුවෝ",
     "image": "kingfishers.jpg"
   },
   {
-    "id": 34,
+    "id": 35,
     "name": "Bee-eaters",
     "sinhala": "බිඟුහරයෝ",
     "image": "bee_eaters.jpg"
   },
   {
-    "id": 35,
+    "id": 36,
     "name": "Rollers",
     "sinhala": "දුම්බොන්නෝ",
     "image": "rollers.jpg"
   },
   {
-    "id": 36,
+    "id": 37,
     "name": "Hoopoe",
     "sinhala": "පොරෝළුවෝ",
     "image": "hoopoe.jpg"
   },
   {
-    "id": 37,
+    "id": 38,
     "name": "Hornbill",
     "sinhala": "කෑදැත්තෝ",
     "image": "hornbill.jpg"
   },
   {
-    "id": 38,
+    "id": 39,
     "name": "Barbets",
     "sinhala": "කොට්ටෝරුවෝ",
     "image": "barbets.jpg"
   },
   {
-    "id": 39,
+    "id": 40,
     "name": "Woodpeckers",
     "sinhala": "කෑරල්ලු",
     "image": "woodpeckers.jpg"
   },
   {
-    "id": 40,
+    "id": 41,
     "name": "Pitta",
     "sinhala": "අවිච්චියෝ",
     "image": "pitta.jpg"
   },
   {
-    "id": 41,
+    "id": 42,
     "name": "Larks",
     "sinhala": "තුලිකාවෝ",
     "image": "larks.jpg"
   },
   {
-    "id": 42,
+    "id": 43,
     "name": "Swallows & Martins",
     "sinhala": "වැහිළිහිණියෝ සහ ඉවුරුළිහිණියෝ",
     "image": "swallows_martins.jpg"
   },
   {
-    "id": 43,
+    "id": 44,
     "name": "Pipits & Wagtails",
     "sinhala": "වැරටිච්චෝ සහ හැලපෙන්දෝ",
     "image": "pipits_wagtails.jpg"
   },
   {
-    "id": 44,
+    "id": 45,
     "name": "Cuckooshrikes & Minivets",
     "sinhala": "කොවුල් සැරසිටිත්තෝ සහ මිණිවිත්තෝ",
     "image": "cuckooshrikes_minivets.jpg"
   },
   {
-    "id": 45,
+    "id": 46,
     "name": "Bulbuls",
     "sinhala": "කොණ්ඩයෝ",
     "image": "bulbuls.jpg"
   },
   {
-    "id": 46,
+    "id": 47,
     "name": "Leafbirds & Iora",
     "sinhala": "කොළරිසියෝ සහ අයෝරාවෝ",
     "image": "leafbirds_iora.jpg"
   },
   {
-    "id": 47,
+    "id": 48,
     "name": "Chats, Robins & Thrushes",
     "sinhala": "සිටිබිච්චෝ, සිටිකිච්චෝ සහ තිරාසිකයෝ",
     "image": "chats_robins_thrushes.jpg"
   },
   {
-    "id": 48,
+    "id": 49,
     "name": "Warblers",
     "sinhala": "රුවියෝ",
     "image": "warblers.jpg"
   },
   {
-    "id": 49,
+    "id": 50,
     "name": "Flycatchers",
     "sinhala": "මැසිමාරාවෝ",
     "image": "flycatchers.jpg"
   },
   {
-    "id": 50,
+    "id": 51,
     "name": "Fantail Flycatchers",
     "sinhala": "පවන්පෙන්දෝ",
     "image": "fantail_flycatchers.jpg"
   },
   {
-    "id": 51,
+    "id": 52,
     "name": "Monarch Flycatchers",
     "sinhala": "රදමාරාවෝ",
     "image": "monarch_flycatchers.jpg"
   },
   {
-    "id": 52,
+    "id": 53,
     "name": "Babblers",
     "sinhala": "දෙමලිච්චෝ",
     "image": "babblers.jpg"
   },
   {
-    "id": 53,
+    "id": 54,
     "name": "Tits",
     "sinhala": "ටිකිරිත්තෝ",
     "image": "tits.jpg"
   },
   {
-    "id": 54,
+    "id": 55,
     "name": "Nuthatches",
     "sinhala": "යටිකුරිත්තෝ",
     "image": "nuthatches.jpg"
   },
   {
-    "id": 55,
+    "id": 56,
     "name": "Sunbirds",
     "sinhala": "සූටික්කෝ",
     "image": "sunbirds.jpg"
   },
   {
-    "id": 56,
+    "id": 57,
     "name": "Flowerpeckers",
     "sinhala": "පිළිලිච්චෝ",
     "image": "flowerpeckers.jpg"
   },
   {
-    "id": 57,
+    "id": 58,
     "name": "White-eyes",
     "sinhala": "සිතැසියෝ",
     "image": "white_eyes.jpg"
   },
   {
-    "id": 58,
+    "id": 59,
     "name": "Orioles",
     "sinhala": "කහ කුරුල්ලෝ",
     "image": "orioles.jpg"
   },
   {
-    "id": 59,
+    "id": 60,
     "name": "Shrikes",
     "sinhala": "සබරිත්තෝ",
     "image": "shrikes.jpg"
   },
   {
-    "id": 60,
+    "id": 61,
     "name": "Drongos",
     "sinhala": "කවුඩෝ",
     "image": "drongos.jpg"
   },
   {
-    "id": 61,
+    "id": 62,
     "name": "Swallow-Shrikes",
     "sinhala": "වනළිහිණියෝ",
     "image": "swallow_shrikes.jpg"
   },
   {
-    "id": 62,
+    "id": 63,
     "name": "Crows",
     "sinhala": "කපුටෝ",
     "image": "crows.jpg"
   },
   {
-    "id": 63,
+    "id": 64,
     "name": "Starlings & Mynas",
     "sinhala": "ශාරිකාවෝ සහ මයිනෝ",
     "image": "starlings_mynas.jpg"
   },
   {
-    "id": 64,
+    "id": 65,
     "name": "Sparrows",
     "sinhala": "ගේකුරුල්ලෝ",
     "image": "sparrows.jpg"
   },
   {
-    "id": 65,
+    "id": 66,
     "name": "Weavers",
     "sinhala": "වඩුකුරුල්ලෝ",
     "image": "weavers.jpg"
   },
   {
-    "id": 66,
+    "id": 67,
     "name": "Munias",
     "sinhala": "වීකුරුල්ලෝ",
     "image": "munias.jpg"
