@@ -7,14 +7,6 @@
 
 <ion-content padding>
 
-    <!--<ion-grid>
-        <ion-row>
-            <ion-col class="background-img">
-
-            </ion-col>
-        </ion-row>
-    </ion-grid>-->
-
     <ion-slides pager="false" [options]="{autoplay:true}">
         <ion-slide *ngFor="let category of categories" (click)="viewCategory(category)">
             <ion-img [src]="'assets/images/' + category.image"></ion-img>
