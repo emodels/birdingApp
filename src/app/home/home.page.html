@@ -1,12 +1,20 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>home</ion-title>
+  <ion-toolbar class="header-bg">
+    <ion-title></ion-title>
+      <ion-searchbar [(ngModel)]="searchQuery" placeholder="Birds in Sri Lanka" (change)="searchBirds($event)"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
 
-  <ion-searchbar [(ngModel)]="searchQuery" (change)="searchBirds($event)"></ion-searchbar>
+    <ion-grid>
+        <ion-row>
+            <ion-col class="background-img">
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
 
   <ion-list>
     <ion-list-header>
