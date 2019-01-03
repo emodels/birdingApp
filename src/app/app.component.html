@@ -1,3 +1,24 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <ion-split-pane contentId="menu-content">
+
+    <!--  our side menu  -->
+    <ion-menu side="start" menuId="first" contentId="menu-content" type="push">
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>Start Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-item (click)="navigateSideMenu('tabs/birds-list/migrant/all')">Migrant Birds</ion-item>
+          <ion-item (click)="navigateSideMenu('tabs/birds-list/endemic/all')">Endemic Birds</ion-item>
+          <ion-item (click)="navigateSideMenu('tabs/birds-list/search/all')">All Birds</ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+
+    <!-- the main content -->
+    <ion-router-outlet id="menu-content"></ion-router-outlet>
+  </ion-split-pane>
 </ion-app>

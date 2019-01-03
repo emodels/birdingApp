@@ -1,12 +1,17 @@
 <ion-header>
   <ion-toolbar color="green">
-    <ion-title></ion-title>
+      <ion-buttons slot="start">
+          <ion-menu-toggle>
+              <ion-button>
+                  <ion-icon slot="icon-only" name="menu"></ion-icon>
+              </ion-button>
+          </ion-menu-toggle>
+      </ion-buttons>
       <ion-searchbar [(ngModel)]="searchQuery" placeholder="Birds in Sri Lanka" (change)="searchBirds($event)"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-
     <ion-slides pager="false" [options]="{autoplay:true}">
         <ion-slide *ngFor="let category of categories" (click)="viewCategory(category)">
             <ion-card>
