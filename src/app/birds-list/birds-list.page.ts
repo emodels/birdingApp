@@ -13,6 +13,7 @@ export class BirdsListPage implements OnInit {
   private type: any;
   private id: any;
 
+  enlargeImages: any;
   title: any;
   titleImage: any;
   birdsAll: any;
