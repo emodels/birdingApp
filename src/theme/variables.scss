@@ -113,4 +113,10 @@
 .header-bg{
   background-color:#006600;
 }
+.tab-button {
+  color: #ffffff !important;
+}
 
+.tab-button[aria-selected=true] {
+  color: #03060b !important;
+}

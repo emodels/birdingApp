@@ -3,10 +3,10 @@
   <ion-split-pane contentId="menu-content">
 
     <!--  our side menu  -->
-    <ion-menu side="start" menuId="first" contentId="menu-content" type="push">
+    <ion-menu side="start" menuId="first" contentId="menu-content" type="reveal">
       <ion-header>
-        <ion-toolbar color="primary">
-          <ion-title>Start Menu</ion-title>
+        <ion-toolbar class="menu-bg menu-height">
+          <ion-label padding class="menu-text">Birds in Sri Lanka</ion-label>
         </ion-toolbar>
       </ion-header>
       <ion-content>
@@ -14,8 +14,26 @@
           <ion-item (click)="navigateSideMenu('tabs/birds-list/migrant/all')">Migrant Birds</ion-item>
           <ion-item (click)="navigateSideMenu('tabs/birds-list/endemic/all')">Endemic Birds</ion-item>
           <ion-item (click)="navigateSideMenu('tabs/birds-list/search/all')">All Birds</ion-item>
+          <ion-item (click)="navigateSideMenu('birds-in-sri-lanka')">Birds in Sri Lanka</ion-item>
+          <ion-item (click)="navigateSideMenu('aboutus')">About Us</ion-item>
         </ion-list>
       </ion-content>
+      <ion-footer>
+        <ion-toolbar class="menu-bg">
+          <ion-grid class="menu-bg">
+            <ion-row>
+              <ion-col>
+                <ion-label>&copy; 2019 Birds in Sri Lank.</ion-label>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-label>Designed By eModels Lanka (Pvt.) Ltd.</ion-label>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-toolbar>
+      </ion-footer>
     </ion-menu>
 
     <!-- the main content -->
