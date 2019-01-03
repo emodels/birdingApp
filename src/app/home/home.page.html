@@ -27,12 +27,16 @@
     <ion-list-header>
        <ion-label>Categories</ion-label>
     </ion-list-header>
-    <ion-item *ngFor="let category of categories" (click)="viewCategory(category)" button="true" detail="true">
-       <ion-avatar slot="start">
-           <ion-img [src]="'assets/images/category/' + category.image"></ion-img>
-       </ion-avatar>
-       <ion-label><h2>{{category.name}} / {{category.sinhala}}</h2></ion-label>
-    </ion-item>
+
+    <ion-virtual-scroll [items]="categories">
+      <ion-item *virtualItem="let category" (click)="viewCategory(category)" button="true" detail="true">
+          <ion-avatar slot="start">
+              <ion-img [src]="'assets/images/category/' + category.image"></ion-img>
+          </ion-avatar>
+          <ion-label><h2>{{category.name}} / {{category.sinhala}}</h2></ion-label>
+      </ion-item>
+    </ion-virtual-scroll>
+
   </ion-list>
 
 </ion-content>

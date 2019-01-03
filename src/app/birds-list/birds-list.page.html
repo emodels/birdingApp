@@ -25,21 +25,30 @@
           <ion-label>Birds Listing</ion-label>
         </ion-item-divider>
 
-        <ion-item *ngFor="let bird of birds" (click)="viewBird(bird)" button="true" detail="true">
+        <ion-virtual-scroll [items]="birds" *ngIf="!enlargeImages">
+            <ion-item *virtualItem="let bird; let itemBounds = bounds;" (click)="viewBird(bird)" button="true" detail="true">
 
-          <ion-avatar slot="start" *ngIf="!enlargeImages">
-              <ion-img [src]="'assets/images/' + bird.image"></ion-img>
-          </ion-avatar>
-          <ion-label *ngIf="!enlargeImages"><h2>{{bird.name}}</h2></ion-label>
+              <ion-avatar slot="start">
+                  <ion-img [src]="'assets/images/' + bird.image"></ion-img>
+              </ion-avatar>
+              <ion-label><h2>{{bird.name}}</h2></ion-label>
 
-          <ion-card *ngIf="enlargeImages">
-              <ion-img src="assets/images/{{bird.image}}"></ion-img>
-              <ion-card-header>
-                  <ion-card-title>{{bird.name}} / {{bird.sinhala}}</ion-card-title>
-              </ion-card-header>
-          </ion-card>
+            </ion-item>
+        </ion-virtual-scroll>
 
-        </ion-item>
+        <ion-virtual-scroll [items]="birds" *ngIf="enlargeImages">
+            <ion-item *virtualItem="let bird; let itemBounds = bounds;" (click)="viewBird(bird)" button="true" detail="true">
+
+                <ion-card>
+                    <ion-img [src]="'assets/images/' + bird.image" style="height: 200px"></ion-img>
+                    <ion-card-header>
+                        <ion-card-title>{{bird.name}} / {{bird.sinhala}}</ion-card-title>
+                    </ion-card-header>
+                </ion-card>
+
+            </ion-item>
+        </ion-virtual-scroll>
+
     </ion-list>
 
 </ion-content>
