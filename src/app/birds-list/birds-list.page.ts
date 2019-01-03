@@ -17,6 +17,7 @@ export class BirdsListPage implements OnInit {
   title: any;
   titleImage: any;
   birdsAll: any;
+  birdsOriginal: any;
   birds: any;
 
   constructor(public dataService: DataService, private route: ActivatedRoute, private navCtrl: NavController) { }
@@ -62,16 +63,32 @@ export class BirdsListPage implements OnInit {
 
                     this.title = 'Endemic Birds';
                     this.birds = this.birdsAll.filter(bird => bird.endemic == 1);
+
                     break;
 
                 case 'migrant':
 
                     this.title = 'Migrant Birds';
                     this.birds = this.birdsAll.filter(bird => bird.migrant == 1);
+
                     break;
             }
+
+            this.birdsOriginal = this.birds;
         }
     );
+  }
+
+  searchBirds(event): void {
+
+      if (!event.srcElement.value) {
+
+          this.birds = this.birdsOriginal;
+
+      } else {
+
+          this.birds = this.birdsOriginal.filter(bird => bird.name.toLowerCase().includes(event.srcElement.value.toLowerCase()));
+      }
   }
 
   getCategory(id: number): void {
