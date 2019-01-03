@@ -10,13 +10,16 @@ import { DataService } from '../data.service';
 })
 export class HomePage implements OnInit {
 
+  categoriesAll: any;
   categories: any;
-  searchQuery: string;
 
   constructor(public navCtrl: NavController, public dataService: DataService) { }
 
   ngOnInit() {
-     this.dataService.getCategories().subscribe(categories => this.categories = categories);
+     this.dataService.getCategories().subscribe((response) => {
+         this.categoriesAll = response;
+         this.categories = response;
+     });
   }
 
   viewCategory(any): void {
@@ -24,8 +27,15 @@ export class HomePage implements OnInit {
     this.navCtrl.navigateForward('tabs/birds-list/category/' + any.id);
   }
 
-  searchBirds(any): void {
+  searchCategories(event): void {
 
-      this.navCtrl.navigateForward('tabs/birds-list/search/' + this.searchQuery);
+    if (!event.srcElement.value) {
+
+      this.categories = this.categoriesAll;
+
+    } else {
+
+      this.categories = this.categoriesAll.filter(category => category.name.toLowerCase().includes(event.srcElement.value.toLowerCase()));
+    }
   }
 }

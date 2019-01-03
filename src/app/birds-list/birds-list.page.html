@@ -1,4 +1,5 @@
 <ion-header>
+  <ion-searchbar placeholder="Birds in Sri Lanka" (ionInput)="searchBirds($event)"></ion-searchbar>
   <ion-toolbar>
       <ion-buttons slot="start">
           <ion-button color="dark" (click)="goBack()">
@@ -24,13 +25,12 @@
           <ion-label>Birds Listing</ion-label>
         </ion-item-divider>
 
-        <ion-item *ngFor="let bird of birds" (click)="viewBird(bird)">
+        <ion-item *ngFor="let bird of birds" (click)="viewBird(bird)" button="true" detail="true">
 
           <ion-avatar slot="start" *ngIf="!enlargeImages">
               <ion-img [src]="'assets/images/' + bird.image"></ion-img>
           </ion-avatar>
           <ion-label *ngIf="!enlargeImages"><h2>{{bird.name}}</h2></ion-label>
-          <ion-icon name="arrow-forward" color="medium" slot="end" *ngIf="!enlargeImages"></ion-icon>
 
           <ion-card *ngIf="enlargeImages">
               <ion-img src="assets/images/{{bird.image}}"></ion-img>
