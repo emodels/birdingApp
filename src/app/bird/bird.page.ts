@@ -10,6 +10,7 @@ import { DataService } from '../data.service';
 export class BirdPage implements OnInit {
 
   bird: any;
+  codesArray: string[] = [];
 
   constructor(public dataService: DataService, private navCtrl: NavController) { }
 
@@ -18,6 +19,17 @@ export class BirdPage implements OnInit {
     if (this.dataService.birdSelected) {
 
       this.bird = this.dataService.birdSelected;
+
+      if (this.bird.code) {
+
+         const categoryCharsArray = this.bird.code.split('');
+
+         categoryCharsArray.forEach(char => {
+             this.codesArray.push(char);
+         });
+
+         console.log(this.codesArray);
+      }
     }
   }
 

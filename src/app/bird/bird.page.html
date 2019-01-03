@@ -6,9 +6,6 @@
       </ion-button>
     </ion-buttons>
     <ion-title>{{bird.name}} / {{bird.sinhala}}</ion-title>
-    <ion-avatar slot="end">
-      <ion-img [src]="'assets/images/' + bird.image"></ion-img>
-    </ion-avatar>
   </ion-toolbar>
 </ion-header>
 
@@ -17,22 +14,21 @@
   <ion-card>
     <ion-img src="assets/images/{{bird.image}}"></ion-img>
     <ion-card-header>
-      <ion-card-title>{{bird.name}} / {{bird.sinhala}}</ion-card-title>
+      <ion-card-title>{{bird.name}}<br>{{bird.sinhala}}</ion-card-title>
       <ion-label>
         <h3 class="ion-padding-top"><b>Scientific Name</b></h3>
         <h4>{{bird.scientific}}</h4>
       </ion-label>
       <ion-label>
-        <h3 class="ion-padding-top"><b>Diversity</b></h3>
-        <h4>{{bird.code}}</h4>
+        <h3 class="ion-padding-top ion-padding-bottom"><b>Diversity</b></h3>
       </ion-label>
-      <ion-badge color="primary">C = Common</ion-badge>
-      <ion-badge color="secondary">U = Uncommon</ion-badge>
-      <ion-badge color="tertiary">R = Resident</ion-badge>
-      <ion-badge color="success">M = Migrant</ion-badge>
-      <ion-badge color="danger">E =Endenmic</ion-badge>
-      <ion-badge color="medium">S = Scarce</ion-badge>
-      <ion-badge color="dark">H = Highly Scarce</ion-badge>
+      <ion-badge color="primary" *ngIf="bird.code && codesArray.indexOf('C') !== -1" class="badge-right-margin">Common</ion-badge>
+      <ion-badge color="secondary" *ngIf="bird.code && codesArray.indexOf('U') !== -1" class="badge-right-margin">Uncommon</ion-badge>
+      <ion-badge color="tertiary" *ngIf="bird.code && codesArray.indexOf('R') !== -1" class="badge-right-margin">Resident</ion-badge>
+      <ion-badge color="success" *ngIf="bird.code && codesArray.indexOf('M') !== -1" class="badge-right-margin">Migrant</ion-badge>
+      <ion-badge color="danger" *ngIf="bird.code && codesArray.indexOf('E') !== -1" class="badge-right-margin">Endenmic</ion-badge>
+      <ion-badge color="medium" *ngIf="bird.code && codesArray.indexOf('S') !== -1" class="badge-right-margin">Scarce</ion-badge>
+      <ion-badge color="dark" *ngIf="bird.code && codesArray.indexOf('H') !== -1" class="badge-right-margin">Highly Scarce</ion-badge>
     </ion-card-header>
     <ion-card-content>
       <p>{{bird.desc}}</p>
