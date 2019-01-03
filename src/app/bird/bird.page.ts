@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 import { DataService } from '../data.service';
+import { LoadingController } from '@ionic/angular';
 
 @Component({
   selector: 'app-bird',
@@ -12,9 +13,11 @@ export class BirdPage implements OnInit {
   bird: any;
   codesArray: string[] = [];
 
-  constructor(public dataService: DataService, private navCtrl: NavController) { }
+  constructor(public dataService: DataService, private navCtrl: NavController, private loadCtrl: LoadingController) { }
 
   ngOnInit() {
+
+    this.presentLoading();
 
     if (this.dataService.birdSelected) {
 
@@ -35,5 +38,13 @@ export class BirdPage implements OnInit {
 
   goBack(): void {
      this.navCtrl.goBack();
+  }
+
+  async presentLoading() {
+    const loading = await this.loadCtrl.create({
+        message: 'Loading',
+        duration: 2000
+    });
+    return await loading.present();
   }
 }

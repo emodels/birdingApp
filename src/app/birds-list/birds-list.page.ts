@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
 import { ActivatedRoute } from  '@angular/router';
 import { NavController } from '@ionic/angular';
+import { LoadingController } from '@ionic/angular';
 
 @Component({
   selector: 'app-birds-list',
@@ -20,9 +21,11 @@ export class BirdsListPage implements OnInit {
   birdsOriginal: any;
   birds: any;
 
-  constructor(public dataService: DataService, private route: ActivatedRoute, private navCtrl: NavController) { }
+  constructor(public dataService: DataService, private route: ActivatedRoute, private navCtrl: NavController, private loadCtrl: LoadingController) { }
 
   ngOnInit() {
+
+    this.presentLoading();
 
     this.type = this.route.snapshot.paramMap.get('type');
     this.id = this.route.snapshot.paramMap.get('id');
@@ -108,5 +111,13 @@ export class BirdsListPage implements OnInit {
 
   goBack(): void {
     this.navCtrl.goBack();
+  }
+
+  async presentLoading() {
+    const loading = await this.loadCtrl.create({
+        message: 'Loading',
+        duration: 2000
+    });
+    return await loading.present();
   }
 }
