@@ -17,6 +17,16 @@
           <ion-item (click)="navigateSideMenu('birds-in-sri-lanka')">Birds in Sri Lanka</ion-item>
           <ion-item (click)="navigateSideMenu('aboutus')">About Us</ion-item>
         </ion-list>
+        <ion-fab vertical="center" horizontal="start" slot="fixed">
+          <ion-fab-button color="danger">
+            <ion-icon name="arrow-dropdown"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-list side="bottom">
+            <ion-fab-button><ion-icon name="logo-facebook"><a href="https://www.facebook.com/groups/birdwatchingsrilanka" target="_blank"></a></ion-icon></ion-fab-button>
+            <ion-fab-button><ion-icon name="logo-instagram"><a href="https://www.instagram.com/birdwatchinginsrilanka/?hl=en" target="_blank"></a></ion-icon></ion-fab-button>
+            <ion-fab-button><ion-icon name="logo-twitter"><a href="https://twitter.com/bird_sri" target="_blank"></a></ion-icon></ion-fab-button>
+          </ion-fab-list>
+        </ion-fab>
       </ion-content>
       <ion-footer>
         <ion-toolbar class="menu-bg">
