@@ -9,7 +9,8 @@
     "desc": "Grebes are small to medium-sized diving birds. They breed on fresh water, but often visit the sea whilst migrating and in winter. They have lobed toes and are excellent swimmers and divers; however, their feet are placed far back on their bodies, making them quite ungainly on land. There are 19 species worldwide. Of these, one species has been recorded in Sri Lanka.",
     "migrant": 0,
     "endemic": 0,
-    "code": "R"
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Little_grebe"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "desc": "The little cormorant is a member of the cormorant family of seabirds. Slightly smaller than the Indian cormorant it lacks a peaked head and has a shorter beak.It forages singly or sometimes in loose groups in lowland freshwater bodies, including small ponds, large lakes, streams and sometimes coastal estuaries.",
     "migrant": 0,
     "endemic": 0,
-    "code": "CR"
+    "code": "CR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Little_cormorant"
   },
   {
     "id": 3,
@@ -33,67 +35,73 @@
     "desc": "The Indian cormorant or Indian shag is a member of the cormorant family. It is found mainly along the inland waters of the Indian Subcontinent but extending west to Sind and east to Thailand and Cambodia. It is a gregarious species that can be easily distinguished from the similar sized little cormorant by its blue eye, small head with a sloping forehead and a long narrow bill ending in a hooked tip.",
     "migrant": 0,
     "endemic": 0,
-    "code": "CR"
+    "code": "CR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Indian_cormorant"
   },
   {
     "id": 4,
     "category": 2,
     "name": "Great Cormorant",
-    "sinhala": "ඉන්දියානු දියකාවා",
+    "sinhala": "මහ දියකාවා",
     "scientific": "Phalacrocorax Carbo Sinensis",
     "image": "great_cormorant.jpg",
     "desc": "The great cormorant, known as the great black cormorant across the Northern Hemisphere, the black cormorant in Australia, the large cormorant in India and the black shag further south in New Zealand, is a widespread member of the cormorant family of seabirds.",
     "migrant": 0,
     "endemic": 0,
-    "code": "SR"
+    "code": "SR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Great_cormorant"
   },
   {
     "id": 5,
     "category": 3,
     "name": "Darter",
     "sinhala": "අභිකාවා",
-    "scientific": "Anhinga melanogaster",
+    "scientific": "Anhinga Melanogaster",
     "image": "darter.jpg",
     "desc": "The darter is a water bird of tropical South Asia and Southeast Asia. It has a long and slender neck with a straight, pointed bill and, like the cormorant, it hunts for fish while its body is submerged in water.",
     "migrant": 0,
     "endemic": 0,
-    "code": "UR"
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Darter"
   },
   {
     "id": 6,
     "category": 4,
     "name": "Spot-billed Pelican",
     "sinhala": "තිත්හොට පැස්තුඩුවා",
-    "scientific": "Pelecanus philippensis",
+    "scientific": "Pelecanus Philippensis",
     "image": "spot_billed_pelican.jpg",
     "desc": "The spot-billed pelican or grey pelican is a member of the pelican family. It breeds in southern Asia from southern Pakistan across India east to Indonesia. It is a bird of large inland and coastal waters, especially large lakes.",
     "migrant": 0,
     "endemic": 0,
-    "code": "UR"
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Spot-billed_pelican"
   },
   {
     "id": 7,
     "category": 5,
     "name": "Yellow Bittern",
     "sinhala": "කහ මැටි කොකා",
-    "scientific": "Ixobrychus sinensis",
+    "scientific": "Ixobrychus Sinensis",
     "image": "yellow_bittern.jpg",
     "desc": "The yellow bittern is a small bittern. It is of Old World origins, breeding in the northern Indian Subcontinent, east to Japan and Indonesia. It is mainly resident, but some northern birds migrate short distances.",
     "migrant": 1,
     "endemic": 0,
-    "code": "UR"
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Yellow_bittern"
   },
   {
     "id": 8,
     "category": 5,
     "name": "Black Bittern",
     "sinhala": "කළු මැටි කොකා",
-    "scientific": "Dupetor flavicollis flavicollis",
+    "scientific": "Dupetor Flavicollis Flavicollis",
     "image": "black_bittern.jpg",
     "desc": "The black bittern is a bittern of Old World origin, breeding in tropical Asia from Bangladesh, Pakistan, India, and Sri Lanka east to China, Indonesia, and Australia. It is mainly resident, but some northern birds migrate short distances.",
     "migrant": 1,
     "endemic": 0,
-    "code": "UR"
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black_bittern"
   },
   {
     "id": 9,
@@ -105,246 +113,540 @@
     "desc": "The Malayan night heron, also known as Malaysian night heron and tiger bittern, is a medium-sized heron. It is distributed in southern and eastern Asia.",
     "migrant": 1,
     "endemic": 0,
-    "code": "S"
+    "code": "S",
+	"wikipedia": "https://en.wikipedia.org/wiki/Malayan_night_heron"
   },
   {
     "id": 10,
     "category": 5,
     "name": "Black-crowned Night Heron",
     "sinhala": "රෑ කොකා",
-    "scientific": "Nycticorax nycticorax nycticorax",
+    "scientific": "Nycticorax Nycticorax Nycticorax",
     "image": "black_crowned_night_heron.jpg",
     "desc": "The black-crowned night heron, or black-capped night heron, commonly shortened to just night heron in Eurasia, is a medium-sized heron found throughout a large part of the world, except in the coldest regions and Australasia.",
     "migrant": 0,
     "endemic": 0,
-    "code": "UR"
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black-crowned_night_heron"
   },
   {
     "id": 11,
     "category": 5,
     "name": "Little Heron",
     "sinhala": "කුඩා පලා කොකා",
-    "scientific": "Butorides striatus javanicus",
+    "scientific": "Butorides Striatus Javanicus",
     "image": "little_heron.jpg",
-    "desc": "The striated heron (Butorides striata) also known as mangrove heron, little heron or green-backed heron, is a small heron, about 44 cm tall. Striated herons are mostly non-migratory and noted for some interesting behavioral traits. Their breeding habitat is small wetlands in the Old World tropics from west Africa to Japan and Australia, and in South America.",
+    "desc": "The striated heron also known as mangrove heron, little heron or green-backed heron, is a small heron, about 44 cm tall. Striated herons are mostly non-migratory and noted for some interesting behavioral traits. Their breeding habitat is small wetlands in the Old World tropics from west Africa to Japan and Australia, and in South America.",
     "migrant": 0,
     "endemic": 0,
-    "code": "UR"
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Striated_heron"
   },
   {
     "id": 12,
     "category": 5,
     "name": "Indian Pond Heron",
     "sinhala": "කණ කොකා",
-    "scientific": "Ardeola grayii grayii",
+    "scientific": "Ardeola Grayii Grayii",
     "image": "indian_pond_heron.jpg",
     "desc": "The Indian pond heron or paddybird (Ardeola grayii) is a small heron. It is of Old World origins, breeding in southern Iran and east to Pakistan, India, Burma, Bangladesh and Sri Lanka. They are widespread and common but can be easily missed when they stalk prey at the edge of small water-bodies or even when they roost close to human habitations.",
     "migrant": 0,
     "endemic": 0,
-    "code": "CR"
+    "code": "CR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Indian_pond_heron"
   },
   {
     "id": 13,
     "category": 5,
     "name": "Eastern Cattle Egret",
     "sinhala": "ගව කොකා",
-    "scientific": "Bubulcus coromandus",
+    "scientific": "Bubulcus Coromandus",
     "image": "eastern_cattle_egret.jpg",
     "desc": "The eastern cattle egret is a species of heron (family Ardeidae) found in the tropics, subtropics and warm temperate zones. Most taxonomic authorities lump this species and the western cattle egret together as subspecies of the cattle egret, but some (including the International Ornithologists Union) separate them.",
     "migrant": 0,
     "endemic": 0,
-    "code": "CR"
+    "code": "CR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Eastern_cattle_egret"
   },
   {
     "id": 14,
     "category": 5,
     "name": "Western Reef Egret",
     "sinhala": "මූදුපර ඇළි කොකා",
-    "scientific": "Egretta gularis schistacea",
+    "scientific": "Egretta Gularis Schistacea",
     "image": "western_reef_egret.jpg",
     "desc": "The western reef heron also called the western reef egret, is a medium-sized heron found in southern Europe, Africa and parts of Asia. It has a mainly coastal distribution and occurs in several plumage forms: a slaty-grey plumage in which it can only be confused with the rather uncommon dark morph of the Little Egret (Egretta garzetta); a white form which can look very similar to the little egret although the bill tends to be paler and larger and the black form with white throat E. g. gularis of West Africa.",
     "migrant": 1,
     "endemic": 0,
-    "code": "S"
+    "code": "S",
+	"wikipedia": "https://en.wikipedia.org/wiki/Western_reef_heron"
   },
   {
     "id": 15,
     "category": 5,
     "name": "Little Egret",
-    "sinhala": "මූදුපර ඇළි කොකා",
-    "scientific": "Egretta garzetta garzetta",
+    "sinhala": "පුංචි ඇළි කොකා",
+    "scientific": "Egretta Garzetta Garzetta",
     "image": "little_egret.jpg",
     "desc": "The little egret is a species of small heron in the family Ardeidae. The genus name comes from the Provençal French Aigrette, egret, a diminutive of Aigron, heron. The species epithet garzetta is from the Italian name for this bird, garzetta or sgarzetta. It is a white bird with a slender black beak, long black legs and, in the western race, yellow feet.",
     "migrant": 0,
     "endemic": 0,
-    "code": "CR"
+    "code": "CR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Little_egret"
   },
   {
     "id": 16,
     "category": 5,
-    "name": "Little Egret",
-    "sinhala": "පුංචි ඇළි කොකා",
-    "scientific": "Egretta garzetta garzetta",
-    "image": "little_egret.jpg",
-    "desc": "The little egret is a species of small heron in the family Ardeidae. The genus name comes from the Provençal French Aigrette, egret, a diminutive of Aigron, heron. The species epithet garzetta is from the Italian name for this bird, garzetta or sgarzetta. It is a white bird with a slender black beak, long black legs and, in the western race, yellow feet.",
-    "migrant": 0,
-    "endemic": 0,
-    "code": "CR"
-  },
-  {
-    "id": 17,
-    "category": 5,
     "name": "Intermediate Egret",
     "sinhala": "සුදු මැදි කොකා",
-    "scientific": "Mesophoyx intermedia intermedia",
+    "scientific": "Mesophoyx Intermedia Intermedia",
     "image": "intermediate_egret.jpg",
     "desc": "The intermediate egret, median egret, smaller egret, or yellow-billed egret (Ardea intermedia) is a medium-sized heron. Some taxonomists put the species in the genus Egretta or Mesophoyx. It is a resident breeder from east Africa across the Indian subcontinent to Southeast Asia and Australia.",
     "migrant": 0,
     "endemic": 0,
-    "code": "CR"
+    "code": "CR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Intermediate_egret"
   },
   {
-    "id": 18,
+    "id": 17,
     "category": 5,
     "name": "Great Egret",
     "sinhala": "මහ සුදු කොකා",
-    "scientific": "Casmerodius alba",
+    "scientific": "Casmerodius Alba",
     "image": "great_egret.jpg",
     "desc": "The great egret, also known as the common egret, large egret, or great white egret or great white heron is a large, widely distributed egret, with four subspecies found in Asia, Africa, the Americas, and southern Europe.",
     "migrant": 0,
     "endemic": 0,
-    "code": "CR"
+    "code": "CR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Great_egret"
   },
   {
-    "id": 19,
+    "id": 18,
     "category": 5,
     "name": "Grey Heron",
     "sinhala": "අළු කොකා",
     "scientific": "Ardea cinerea cinerea",
     "image": "grey_heron.jpg",
-    "desc": "The grey heron (Ardea cinerea), is a wading bird of the heron family Ardeidae, native throughout temperate Europe and Asia and also parts of Africa. It is resident in the milder south and west, but many birds retreat in winter from the ice in colder regions.",
+    "desc": "The grey heron is a wading bird of the heron family Ardeidae, native throughout temperate Europe and Asia and also parts of Africa. It is resident in the milder south and west, but many birds retreat in winter from the ice in colder regions.",
     "migrant": 0,
     "endemic": 0,
-    "code": "UR"
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Grey_heron"
   },
   {
-    "id": 20,
+    "id": 19,
     "category": 5,
     "name": "Purple Heron",
     "sinhala": "කරවැල් කොකා",
-    "scientific": "Ardea purpurea manilensis",
+    "scientific": "Ardea Purpurea Manilensis",
     "image": "purple_heron.jpg",
-    "desc": "The purple heron (Ardea purpurea) is a wide-ranging species of wading bird in the heron family, Ardeidae. The scientific name comes from Latin ardea heron, and purpureus, coloured purple. It breeds in Africa, central and southern Europe, and southern and eastern Asia.",
+    "desc": "The purple heron is a wide-ranging species of wading bird in the heron family, Ardeidae. The scientific name comes from Latin ardea heron, and purpureus, coloured purple. It breeds in Africa, central and southern Europe, and southern and eastern Asia.",
     "migrant": 0,
     "endemic": 0,
-    "code": "R"
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Purple_heron"
   },
   {
-    "id": 21,
+    "id": 20,
     "category": 6,
     "name": "Painted Stork",
     "sinhala": "ලතුවැකියා",
-    "scientific": "Mycteria leucocephala",
+    "scientific": "Mycteria Leucocephala",
     "image": "painted_stork.jpg",
-    "desc": "The painted stork (Mycteria leucocephala) is a large wader in the stork family. It is found in the wetlands of the plains of tropical Asia south of the Himalayas in the Indian Subcontinent and extending into Southeast Asia. Their distinctive pink tertial feathers of the adults give them their name. They forage in flocks in shallow waters along rivers or lakes. They immerse their half open beaks in water and sweep them from side to side and snap up their prey of small fish that are sensed by touch.",
+    "desc": "The painted stork is a large wader in the stork family. It is found in the wetlands of the plains of tropical Asia south of the Himalayas in the Indian Subcontinent and extending into Southeast Asia. Their distinctive pink tertial feathers of the adults give them their name. They forage in flocks in shallow waters along rivers or lakes. They immerse their half open beaks in water and sweep them from side to side and snap up their prey of small fish that are sensed by touch.",
     "migrant": 0,
     "endemic": 0,
-    "code": "R"
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Painted_stork"
   },
   {
-    "id": 22,
+    "id": 21,
     "category": 6,
     "name": "Asian Openbill",
     "sinhala": "ආසියා විවරතුඩුවා",
     "scientific": "Anastomus oscitans",
     "image": "asian_openbill.jpg",
-    "desc": "The Asian openbill or Asian openbill stork (Anastomus oscitans) is a large wading bird in the stork family Ciconiidae. This distinctive stork is found mainly in the Indian subcontinent and Southeast Asia. It is greyish or white with glossy black wings and tail and the adults have a gap between the arched upper mandible and recurved lower mandible.",
+    "desc": "The Asian openbill or Asian openbill stork is a large wading bird in the stork family Ciconiidae. This distinctive stork is found mainly in the Indian subcontinent and Southeast Asia. It is greyish or white with glossy black wings and tail and the adults have a gap between the arched upper mandible and recurved lower mandible.",
     "migrant": 0,
     "endemic": 0,
-    "code": "R"
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Asian_openbill"
+  },
+  {
+    "id": 22,
+    "category": 6,
+    "name": "Woolly-necked Stork",
+    "sinhala": "පාදිලි මානාවා",
+    "scientific": "Ciconia Episcopus Episcopus",
+    "image": "woolly_necked_stork.jpg",
+    "desc": "The woolly-necked stork or whitenecked stork is a large wading bird in the stork family Ciconiidae. It breeds singly, or in small loose colonies. It is distributed in a wide variety of habitats including marshes in forests, agricultural areas, and freshwater wetlands.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Woolly-necked_stork"
   },
   {
     "id": 23,
     "category": 6,
-    "name": "Woolly-necked Stork",
-    "sinhala": "පාදිලි මානාවා",
-    "scientific": "Ciconia episcopus episcopus",
-    "image": "woolly_necked_stork.jpg",
-    "desc": "The woolly-necked stork or whitenecked stork (Ciconia episcopus) is a large wading bird in the stork family Ciconiidae. It breeds singly, or in small loose colonies. It is distributed in a wide variety of habitats including marshes in forests, agricultural areas, and freshwater wetlands.",
+    "name": "Black-Necked Stork",
+    "sinhala": "අලි මානාවා",
+    "scientific": "Ephippiorhynchus Asiaticus Asiaticus",
+    "image": "black_necked_stork.jpg",
+    "desc": "The black-necked stork is a tall long-necked wading bird in the stork family. It is a resident species across the Indian Subcontinent and Southeast Asia with a disjunct population in Australia. It lives in wetland habitats and certain crops such as rice and wheat where it forages for a wide range of animal prey.",
     "migrant": 0,
     "endemic": 0,
-    "code": "UR"
+    "code": "HSR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black-necked_stork"
   },
   {
     "id": 24,
     "category": 6,
-    "name": "Black-necked Stork",
-    "sinhala": "අලි මානාවා",
-    "scientific": "Ephippiorhynchus asiaticus asiaticus",
-    "image": "black_necked_stork.jpg",
-    "desc": "The black-necked stork (Ephippiorhynchus asiaticus) is a tall long-necked wading bird in the stork family. It is a resident species across the Indian Subcontinent and Southeast Asia with a disjunct population in Australia. It lives in wetland habitats and certain crops such as rice and wheat where it forages for a wide range of animal prey.",
+    "name": "Lesser Adjutant",
+    "sinhala": "හීන් බහුරු මානාවා",
+    "scientific": "Leptoptilos Javanicus",
+    "image": "lesser_adjutant.jpg",
+    "desc": "The lesser adjutant is a large wading bird in the stork family Ciconiidae. Like other members of its genus, it has a bare neck and head. It is however more closely associated with wetland habitats where it is solitary and is less likely to scavenge than the related greater adjutant. It is a widespread species found from India through Southeast Asia to Java.",
     "migrant": 0,
     "endemic": 0,
-    "code": "HSR"
+    "code": "SR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Lesser_adjutant"
   },
   {
     "id": 25,
-    "category": 6,
-    "name": "Lesser Adjutant",
-    "sinhala": "හීන් බහුරු මානාවා",
-    "scientific": "Leptoptilos javanicus",
-    "image": "lesser_adjutant.jpg",
-    "desc": "The lesser adjutant (Leptoptilos javanicus) is a large wading bird in the stork family Ciconiidae. Like other members of its genus, it has a bare neck and head. It is however more closely associated with wetland habitats where it is solitary and is less likely to scavenge than the related greater adjutant. It is a widespread species found from India through Southeast Asia to Java.",
-    "migrant": 0,
-    "endemic": 0,
-    "code": "SR"
-  },
-  {
-    "id": 26,
     "category": 7,
     "name": "Glossy Ibis",
     "sinhala": "සිලුටු දෑතුඩුවා",
     "scientific": "Plegadis falcinellus falcinellus",
     "image": "glossy_ibis.jpg",
-    "desc": "The glossy ibis (Plegadis falcinellus) is a wading bird in the ibis family Threskiornithidae. The scientific name derives from Ancient Greek plegados and Latin, falcis, both meaning sickle and referring to the distinctive shape of the bill.",
+    "desc": "The glossy ibis is a wading bird in the ibis family Threskiornithidae. The scientific name derives from Ancient Greek plegados and Latin, falcis, both meaning sickle and referring to the distinctive shape of the bill.",
     "migrant": 1,
     "endemic": 0,
-    "code": "S"
+    "code": "S",
+	"wikipedia": "https://en.wikipedia.org/wiki/Glossy_ibis"
+  },
+  {
+    "id": 26,
+    "category": 7,
+    "name": "Black-Headed Ibis",
+    "sinhala": "සුදු දෑතුඩුවා",
+    "scientific": "Threskiornis melanocephalus",
+    "image": "black_headed_ibis.jpg",
+    "desc": "The black-headed ibis, also known as the Oriental white ibis, Indian white ibis, and black-necked ibis, is a species of wading bird of the ibis family Threskiornithidae which breeds in the South- and Southeast Asia from India to the west and as far east as Japan.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black-headed_ibis"
   },
   {
     "id": 27,
     "category": 7,
-    "name": "Black-headed Ibis",
-    "sinhala": "සුදු දෑතුඩුවා",
-    "scientific": "Threskiornis melanocephalus",
-    "image": "black_headed_ibis.jpg",
-    "desc": "The black-headed ibis (Threskiornis melanocephalus), also known as the Oriental white ibis, Indian white ibis, and black-necked ibis, is a species of wading bird of the ibis family Threskiornithidae which breeds in the South- and Southeast Asia from India to the west and as far east as Japan.",
+    "name": "Eurasian Spoonbill",
+    "sinhala": "යුරාසියා හැඳිඅලවා",
+    "scientific": "Platalea Leucorodia Leucorodia",
+    "image": "eurasian_spoonbill.jpg",
+    "desc": "The Eurasian spoonbill or common spoonbill is a wading bird of the ibis and spoonbill family Threskiornithidae. The genus name Platalea is from Latin and means broad, referring to the distinctive shape of the bill, and leucorodia is from Ancient Greek leukerodios spoonbill, itself derived from leukos, white and erodios heron.",
     "migrant": 0,
     "endemic": 0,
-    "code": "R"
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Eurasian_spoonbill"
   },
   {
     "id": 28,
-    "category": 7,
-    "name": "Eurasian Spoonbill",
-    "sinhala": "යුරාසියා හැඳිඅලවා",
-    "scientific": "Platalea leucorodia leucorodia",
-    "image": "eurasian_spoonbill.jpg",
-    "desc": "The Eurasian spoonbill or common spoonbill (Platalea leucorodia) is a wading bird of the ibis and spoonbill family Threskiornithidae. The genus name Platalea is from Latin and means broad, referring to the distinctive shape of the bill, and leucorodia is from Ancient Greek leukerodios spoonbill, itself derived from leukos, white and erodios heron.",
-    "migrant": 0,
-    "endemic": 0,
-    "code": "UR"
-  },
-  {
-    "id": 29,
     "category": 8,
     "name": "Greater Flamingo",
     "sinhala": "රජ සියක්කාරයෝ",
-    "scientific": "Phoenicopterus ruber roseus",
+    "scientific": "Phoenicopterus Ruber Roseus",
     "image": "greater_flamingo.jpg",
-    "desc": "The greater flamingo (Phoenicopterus roseus) is the most widespread and largest species of the flamingo family. It is found in Africa, on the Indian subcontinent, in the Middle East, and in southern Europe.",
+    "desc": "The greater flamingo is the most widespread and largest species of the flamingo family. It is found in Africa, on the Indian subcontinent, in the Middle East, and in southern Europe.",
     "migrant": 1,
     "endemic": 0,
-    "code": ""
+    "code": "M",
+	"wikipedia": "https://en.wikipedia.org/wiki/Greater_flamingo"
+  }
+  {
+    "id": 29,
+    "category": 9,
+    "name": "Lesser Whistling-Duck",
+    "sinhala": "කුඩා තඹ සේරුවා",
+    "scientific": "Dendrocygna Javanica",
+    "image": "lesser_whistling_duck.jpg",
+    "desc": "The lesser whistling duck, also known as Indian whistling duck or lesser whistling teal, is a species of whistling duck that breeds in the Indian subcontinent and Southeast Asia. They are nocturnal feeders that during the day may be found in flocks around lakes and wet paddy fields. They can perch on trees and sometimes build their nest in the hollow of a tree.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Lesser_whistling_duck"
+  }
+  {
+    "id": 30,
+    "category": 9,
+    "name": "Cotton Pygmy-Goose",
+    "sinhala": "මල් සේරුවා",
+    "scientific": "Nettapus Coromandelianus Coromandelianus",
+    "image": "cotton_pygmy_goose.jpg",
+    "desc": "The cotton pygmy goose or cotton teal is a small perching duck which breeds in Pakistan, India, Bangladesh, Southeast Asia and south to Queensland. Small individuals of this species are the smallest waterfowl on earth, at as little as 160 g (5.6 oz) and 26 cm (10 in). The goose-like bill is short and deep at the base. The head is rounded and the legs are short. The plumage is mostly white.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Cotton_pygmy_goose"
+  }
+  {
+    "id": 31,
+    "category": 9,
+    "name": "Eurasian Wigeon",
+    "sinhala": "විජානිය සේරුවා",
+    "scientific": "Anas Penelope",
+    "image": "eurasian_wigeon.jpg",
+    "desc": "The Eurasian wigeon, also known as widgeon is one of three species of wigeon in the dabbling duck genus Mareca. It is common and widespread within its range. This dabbling duck is 42–52 cm (17–20 in) long with a 71–80 cm (28–31 in) wingspan, and a weight of 500–1,073 g (1.102–2.366 lb). The breeding male has grey flanks and back, with a black rear end, a dark green speculum and a brilliant white patch on upper wings, obvious in flight or at rest. It has a pink breast, white belly, and a chestnut head with a creamy crown. In non-breeding (eclipse) plumage, the drake looks more like the female. The female is light brown, with plumage much like a female American wigeon. It can be distinguished from most other ducks, apart from American wigeon, on shape. However, that species has a paler head and white axillaries on its underwing. The female can be a rufous morph with a redder head, and a gray morph with a more gray head.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "M",
+	"wikipedia": "https://en.wikipedia.org/wiki/Eurasian_wigeon"
+  }
+  {
+    "id": 32,
+    "category": 9,
+    "name": "Common Teal",
+    "sinhala": "යුරෝපීය සේරුවා",
+    "scientific": "Anas Crecca Crecca",
+    "image": "common_teal.jpg",
+    "desc": "The Eurasian teal or common teal is a common and widespread duck which breeds in temperate Eurasia and migrates south in winter. The Eurasian teal is often called simply the teal due to being the only one of these small dabbling ducks in much of its range. The bird gives its name to the blue-green colour teal.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "SM",
+	"wikipedia": "https://en.wikipedia.org/wiki/Eurasian_teal"
+  }
+  {
+    "id": 33,
+    "category": 9,
+    "name": "Spot-Billed Duck",
+    "sinhala": "තිත් හොට සේරුවා",
+    "scientific": "Anas Poecilorhyncha Poecilorhyncha",
+    "image": "spot_billed_duck.jpg",
+    "desc": "The Indian spot-billed duck is a large dabbling duck that is a non-migratory breeding duck throughout freshwater wetlands in the Indian subcontinent. The name is derived from the red spot at the base of the bill that is found in the mainland Indian population. When in water it can be recognized from a long distance by the white tertials that form a stripe on the side, and in flight it is distinguished by the green speculum with a broad white band at the base.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "SHRM",
+	"wikipedia": "https://en.wikipedia.org/wiki/Indian_spot-billed_duck"
+  }
+  {
+    "id": 34,
+    "category": 9,
+    "name": "Northern Pintail",
+    "sinhala": "උතුරු උල්පෙඳ සේරුවා",
+    "scientific": "Anas Acuta Acuta",
+    "image": "northern_pintail.jpg",
+    "desc": "The pintail or northern pintail is a duck with wide geographic distribution that breeds in the northern areas of Europe, Asia and North America. It is migratory and winters south of its breeding range to the equator. Unusually for a bird with such a large range, it has no geographical subspecies if the possibly conspecific duck Eaton's pintail is considered to be a separate species.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "M",
+	"wikipedia": "https://en.wikipedia.org/wiki/Northern_pintail"
+  }
+  {
+    "id": 35,
+    "category": 9,
+    "name": "Garganey",
+    "sinhala": "ගාගනී සේරුවා",
+    "scientific": "Anas Querquedula",
+    "image": "garganey.jpg",
+    "desc": "The garganey is a small dabbling duck. It breeds in much of Europe and western Asia, but is strictly migratory, with the entire population moving to southern Africa, India (in particular Santragachi), and Australasia in winter, where large flocks can occur. This species was first described by Linnaeus in 1758. Like other small ducks such as the common teal, this species rises easily from the water with a fast twisting wader-like flight.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "M",
+	"wikipedia": "https://en.wikipedia.org/wiki/Garganey"
+  }
+  {
+    "id": 36,
+    "category": 9,
+    "name": "Northern Shoveller",
+    "sinhala": "උතුරු ශවල සේරුවා",
+    "scientific": "Anas Clypeata",
+    "image": "northern_shoveller.jpg",
+    "desc": "The northern shoveler, known simply in Britain as the shoveler, is a common and widespread duck. It breeds in northern areas of Europe and Asia and across most of North America, wintering in southern Europe, Africa, the Indian subcontinent, Southeast Asia, and Central, and northern South America. It is a rare vagrant to Australia. In North America, it breeds along the southern edge of Hudson Bay and west of this body of water, and as far south as the Great Lakes west to Colorado, Nevada, and Oregon.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "SM",
+	"wikipedia": "https://en.wikipedia.org/wiki/Northern_shoveler"
+  }
+  {
+    "id": 37,
+    "category": 9,
+    "name": "Tufted Duck",
+    "sinhala": "කුඩුම්බි මඩ සේරුවා",
+    "scientific": "Aythya Fuligula",
+    "image": "tufted_duck.jpg",
+    "desc": "The tufted duck is a small diving duck with a population of close to one million birds, found in northern Eurasia. The scientific name is derived from Ancient Greek aithuia an unidentified seabird mentioned by authors including Hesychius and Aristotle, and Latin, fuligo 'soot' and gula 'throat'.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "",
+	"wikipedia": "https://en.wikipedia.org/wiki/Tufted_duck"
+  }
+  {
+    "id": 38,
+    "category": 10,
+    "name": "Oriental Honey-Buzzard",
+    "sinhala": "සිලුවැති බඹරුකුස්සා",
+    "scientific": "Pernis Ptilorhynchus Orientails",
+    "image": "oriental_honey_buzzard.jpg",
+    "desc": "The crested honey buzzard is a bird of prey in the family Accipitridae, which also includes many other diurnal raptors such as kites, eagles, and harriers. This species is also known as the Oriental honey buzzard.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "SM",
+	"wikipedia": "https://en.wikipedia.org/wiki/Crested_honey_buzzard"
+  }
+  {
+    "id": 39,
+    "category": 10,
+    "name": "Oriental Honey-Buzzard",
+    "sinhala": "සිලුවැති බඹරුකුස්සා",
+    "scientific": "Pernis Ptilorhynchus Orientails",
+    "image": "oriental_honey_buzzard.jpg",
+    "desc": "The crested honey buzzard is a bird of prey in the family Accipitridae, which also includes many other diurnal raptors such as kites, eagles, and harriers. This species is also known as the Oriental honey buzzard.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "URSM",
+	"wikipedia": "https://en.wikipedia.org/wiki/Crested_honey_buzzard"
+  }
+  {
+    "id": 40,
+    "category": 10,
+    "name": "Black-Shouldered Kite",
+    "sinhala": "උරිස් කළු පතනුකුස්සා",
+    "scientific": "Elanus Caeruleus Vociferus",
+    "image": "black_shouldered_kite.jpg",
+    "desc": "The black-shouldered kite, also known as the Australian black-shouldered kite, is a small raptor found in open habitat throughout Australia. It resembles similar species found in Africa, Eurasia and North America, including the black-winged kite, a species that has in the past also been called 'black-shouldered kite'. Measuring around 35 cm (14 in) in length with a wingspan of 80–100 cm (31–39 in), the adult black-shouldered kite has predominantly grey-white plumage and prominent black markings above its red eyes.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black-shouldered_kite"
+  }
+  {
+    "id": 41,
+    "category": 10,
+    "name": "Black Kite",
+    "sinhala": "බොර පරකුස්සා",
+    "scientific": "Milvus Migrans Govinda",
+    "image": "black_kite.jpg",
+    "desc": "The black kite is a medium-sized bird of prey in the family Accipitridae, which also includes many other diurnal raptors. It is thought to be the world's most abundant species of Accipitridae, although some populations have experienced dramatic declines or fluctuations. Current global population estimates run up to 6 million individuals. Unlike others of the group, black kites are opportunistic hunters and are more likely to scavenge. They spend a lot of time soaring and gliding in thermals in search of food.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "SRM",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black_kite"
+  }
+  {
+    "id": 42,
+    "category": 10,
+    "name": "Brahminy Kite",
+    "sinhala": "බමුණු පියාකුස්සා",
+    "scientific": "Haliastur Indus Indus",
+    "image": "brahminy_kite.jpg",
+    "desc": "The brahminy kite, also known as the red-backed sea-eagle in Australia, is a medium-sized bird of prey in the family Accipitridae, which also includes many other diurnal raptors, such as eagles, buzzards, and harriers. They are found in the Indian subcontinent, Southeast Asia, and Australia. They are found mainly on the coast and in inland wetlands, where they feed on dead fish and other prey. Adults have a reddish-brown body plumage contrasting with their white head and breast which make them easy to distinguish from other birds of prey.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Brahminy_kite"
+  }
+  {
+    "id": 43,
+    "category": 10,
+    "name": "White-Bellied Sea Eagle",
+    "sinhala": "සේතෝදර මූදු රාජාලියා",
+    "scientific": "Haliaeetus Leucogaster",
+    "image": "white_bellied_sea_eagle.jpg",
+    "desc": "The white-bellied sea eagle, also known as the white-breasted sea eagle, is a large diurnal bird of prey in the family Accipitridae. Resident from India and Sri Lanka through Southeast Asia to Australia on coasts and major waterways, the white-bellied sea eagle breeds and hunts near water, and fish form around half of its diet. Opportunistic, it consumes carrion and a wide variety of animals.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/White-bellied_sea_eagle"
+  }
+  {
+    "id": 44,
+    "category": 10,
+    "name": "Grey-headed Fish Eagle",
+    "sinhala": "රජ අළුහිස් මසුකුස්සා",
+    "scientific": "Icthyophaga Icthyaetus",
+    "image": "grey_headed_fish_eagle.jpg",
+    "desc": "The grey-headed fish eagle is a fish-eating bird of prey from South East Asia. It is a large stocky raptor with adults having dark brown upper body, grey head and lighter underbelly and white legs. Juveniles are paler with darker streaking. It is often confused with the lesser fish eagle (Haliaeetus humilis) and the Pallas's fish eagle. The lesser fish eagle is similar in plumage but smaller and the Pallas’s fish eagle shares the same habitat and feeding behaviour but is larger with longer wings and darker underparts. Is often called tank eagle in Sri Lanka due to its fondness for irrigation tanks.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "SR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Grey-headed_fish_eagle"
+  }
+  {
+    "id": 45,
+    "category": 10,
+    "name": "Crested Serpent Eagle",
+    "sinhala": "සිළු සරපකුස්සා",
+    "scientific": "Spilornis Cheela Spilogaster",
+    "image": "crested_serpent_eagle.jpg",
+    "desc": "The crested serpent eagle is a medium-sized bird of prey that is found in forested habitats across tropical Asia. Within its widespread range across the Indian Subcontinent, Southeast Asia and East Asia, there are considerable variations and some authorities prefer to treat several of its subspecies as completely separate species.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Crested_serpent_eagle"
+  }
+  {
+    "id": 46,
+    "category": 10,
+    "name": "Pallid Harrier",
+    "sinhala": "සුදුමැලි හැරිකුස්සා",
+    "scientific": "Circus Macrourus",
+    "image": "pallid_harrier.jpg",
+    "desc": "The pale or pallid harrier is a migratory bird of prey of the harrier family. The scientific name is derived from the Ancient Greek. It breeds in southern parts of eastern Europe and central Asia (such as Iran) and winters mainly in India and southeast Asia. It is a very rare vagrant to Great Britain and western Europe.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "UM",
+	"wikipedia": "https://en.wikipedia.org/wiki/Pallid_harrier"
+  }
+  {
+    "id": 47,
+    "category": 10,
+    "name": "Shikra",
+    "sinhala": "කුරුළුගොයා",
+    "scientific": "Accipiter Badius Badius",
+    "image": "shikra.jpg",
+    "desc": "The shikra is a small bird of prey in the family Accipitridae found widely distributed in Asia and Africa where it is also called the little banded goshawk. The African forms may represent a separate species but have usually been considered as subspecies of the shikra. The shikra is very similar in appearance to other sparrowhawk species including the Chinese goshawk and Eurasian sparrowhawk. They have a sharp two note call and have the typical flap and glide flight. Their calls are imitated by drongos and the common hawk-cuckoo resembles it in plumage.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Shikra"
+  }
+  {
+    "id": 48,
+    "category": 10,
+    "name": "Common Buzzard",
+    "sinhala": "යුරාසියා ලැසිකුස්සා",
+    "scientific": "Buteo Buteo Japonicus",
+    "image": "common_buzzard.jpg",
+    "desc": "The common buzzard is a medium-to-large bird of prey whose range covers most of Europe and extends into Asia. Over much of its range, it is resident year-round, but birds from the colder parts of the Northern Hemisphere typically migrate south (some well into the Southern Hemisphere) for the northern winter.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "SM",
+	"wikipedia": "https://en.wikipedia.org/wiki/Common_buzzard"
+  }
+  {
+    "id": 49,
+    "category": 10,
+    "name": "Black Eagle",
+    "sinhala": "කළුකුස්සා",
+    "scientific": "Ictinaetus Malayensis Perniger",
+    "image": "black_eagle.jpg",
+    "desc": "The black eagle is a bird of prey. Like all eagles, it is in the family Accipitridae, and is the only member of the genus Ictinaetus. They soar over forests in the hilly regions of tropical and subtropical South and Southeast Asia, as well as southeastern China. They hunt mammals and birds, particularly at their nests. They are easily identified by their widely splayed and long primary 'fingers', the characteristic silhouette, slow flight and yellow ceres and legs that contrast with their dark feathers.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "UR",
+	"wikipedia": "https://en.wikipedia.org/wiki/Black_eagle"
+  }
+  {
+    "id": 50,
+    "category": 10,
+    "name": "Crested Hawk Eagle",
+    "sinhala": "පෙරළි කොන්ඩ උකුස්සා",
+    "scientific": "Spizaetus Cirrhatus Ceylanensis",
+    "image": "crested_hawk_eagle.jpg",
+    "desc": "The changeable hawk-eagle or crested hawk-eagle is a bird of prey species of the family Accipitridae. It was formerly placed in the genus Spizaetus, but studies pointed to the group being paraphyletic resulting in the Old World members being placed in Nisaetus (Hodgson, 1836) and separated from the New World species.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+	"wikipedia": "https://en.wikipedia.org/wiki/Changeable_hawk-eagle"
   }
 ]
