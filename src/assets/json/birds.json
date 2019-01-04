@@ -10,7 +10,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Little_grebe"
+    "wikipedia": "https://en.wikipedia.org/wiki/Little_grebe"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "CR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Little_cormorant"
+    "wikipedia": "https://en.wikipedia.org/wiki/Little_cormorant"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "CR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Indian_cormorant"
+    "wikipedia": "https://en.wikipedia.org/wiki/Indian_cormorant"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "SR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Great_cormorant"
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_cormorant"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Darter"
+    "wikipedia": "https://en.wikipedia.org/wiki/Darter"
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Spot-billed_pelican"
+    "wikipedia": "https://en.wikipedia.org/wiki/Spot-billed_pelican"
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@
     "migrant": 1,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Yellow_bittern"
+    "wikipedia": "https://en.wikipedia.org/wiki/Yellow_bittern"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
     "migrant": 1,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Black_bittern"
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_bittern"
   },
   {
     "id": 9,
@@ -114,7 +114,7 @@
     "migrant": 1,
     "endemic": 0,
     "code": "S",
-	"wikipedia": "https://en.wikipedia.org/wiki/Malayan_night_heron"
+    "wikipedia": "https://en.wikipedia.org/wiki/Malayan_night_heron"
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Black-crowned_night_heron"
+    "wikipedia": "https://en.wikipedia.org/wiki/Black-crowned_night_heron"
   },
   {
     "id": 11,
@@ -140,7 +140,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Striated_heron"
+    "wikipedia": "https://en.wikipedia.org/wiki/Striated_heron"
   },
   {
     "id": 12,
@@ -153,7 +153,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "CR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Indian_pond_heron"
+    "wikipedia": "https://en.wikipedia.org/wiki/Indian_pond_heron"
   },
   {
     "id": 13,
@@ -166,7 +166,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "CR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Eastern_cattle_egret"
+    "wikipedia": "https://en.wikipedia.org/wiki/Eastern_cattle_egret"
   },
   {
     "id": 14,
@@ -179,7 +179,7 @@
     "migrant": 1,
     "endemic": 0,
     "code": "S",
-	"wikipedia": "https://en.wikipedia.org/wiki/Western_reef_heron"
+    "wikipedia": "https://en.wikipedia.org/wiki/Western_reef_heron"
   },
   {
     "id": 15,
@@ -192,7 +192,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "CR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Little_egret"
+    "wikipedia": "https://en.wikipedia.org/wiki/Little_egret"
   },
   {
     "id": 16,
@@ -205,7 +205,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "CR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Intermediate_egret"
+    "wikipedia": "https://en.wikipedia.org/wiki/Intermediate_egret"
   },
   {
     "id": 17,
@@ -218,7 +218,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "CR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Great_egret"
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_egret"
   },
   {
     "id": 18,
@@ -231,7 +231,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Grey_heron"
+    "wikipedia": "https://en.wikipedia.org/wiki/Grey_heron"
   },
   {
     "id": 19,
@@ -244,7 +244,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Purple_heron"
+    "wikipedia": "https://en.wikipedia.org/wiki/Purple_heron"
   },
   {
     "id": 20,
@@ -257,7 +257,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Painted_stork"
+    "wikipedia": "https://en.wikipedia.org/wiki/Painted_stork"
   },
   {
     "id": 21,
@@ -270,7 +270,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Asian_openbill"
+    "wikipedia": "https://en.wikipedia.org/wiki/Asian_openbill"
   },
   {
     "id": 22,
@@ -283,7 +283,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Woolly-necked_stork"
+    "wikipedia": "https://en.wikipedia.org/wiki/Woolly-necked_stork"
   },
   {
     "id": 23,
@@ -296,7 +296,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "HSR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Black-necked_stork"
+    "wikipedia": "https://en.wikipedia.org/wiki/Black-necked_stork"
   },
   {
     "id": 24,
@@ -309,7 +309,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "SR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Lesser_adjutant"
+    "wikipedia": "https://en.wikipedia.org/wiki/Lesser_adjutant"
   },
   {
     "id": 25,
@@ -322,7 +322,7 @@
     "migrant": 1,
     "endemic": 0,
     "code": "S",
-	"wikipedia": "https://en.wikipedia.org/wiki/Glossy_ibis"
+    "wikipedia": "https://en.wikipedia.org/wiki/Glossy_ibis"
   },
   {
     "id": 26,
@@ -335,7 +335,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Black-headed_ibis"
+    "wikipedia": "https://en.wikipedia.org/wiki/Black-headed_ibis"
   },
   {
     "id": 27,
@@ -348,7 +348,7 @@
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Eurasian_spoonbill"
+    "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_spoonbill"
   },
   {
     "id": 28,
@@ -361,8 +361,8 @@
     "migrant": 1,
     "endemic": 0,
     "code": "M",
-	"wikipedia": "https://en.wikipedia.org/wiki/Greater_flamingo"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Greater_flamingo"
+  },
   {
     "id": 29,
     "category": 9,
@@ -374,8 +374,8 @@
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Lesser_whistling_duck"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Lesser_whistling_duck"
+  },
   {
     "id": 30,
     "category": 9,
@@ -387,8 +387,8 @@
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Cotton_pygmy_goose"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Cotton_pygmy_goose"
+  },
   {
     "id": 31,
     "category": 9,
@@ -400,8 +400,8 @@
     "migrant": 1,
     "endemic": 0,
     "code": "M",
-	"wikipedia": "https://en.wikipedia.org/wiki/Eurasian_wigeon"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_wigeon"
+  },
   {
     "id": 32,
     "category": 9,
@@ -413,8 +413,8 @@
     "migrant": 1,
     "endemic": 0,
     "code": "SM",
-	"wikipedia": "https://en.wikipedia.org/wiki/Eurasian_teal"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_teal"
+  },
   {
     "id": 33,
     "category": 9,
@@ -426,8 +426,8 @@
     "migrant": 1,
     "endemic": 0,
     "code": "SHRM",
-	"wikipedia": "https://en.wikipedia.org/wiki/Indian_spot-billed_duck"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Indian_spot-billed_duck"
+  },
   {
     "id": 34,
     "category": 9,
@@ -439,8 +439,8 @@
     "migrant": 1,
     "endemic": 0,
     "code": "M",
-	"wikipedia": "https://en.wikipedia.org/wiki/Northern_pintail"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Northern_pintail"
+  },
   {
     "id": 35,
     "category": 9,
@@ -452,8 +452,8 @@
     "migrant": 1,
     "endemic": 0,
     "code": "M",
-	"wikipedia": "https://en.wikipedia.org/wiki/Garganey"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Garganey"
+  },
   {
     "id": 36,
     "category": 9,
@@ -465,8 +465,8 @@
     "migrant": 1,
     "endemic": 0,
     "code": "SM",
-	"wikipedia": "https://en.wikipedia.org/wiki/Northern_shoveler"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Northern_shoveler"
+  },
   {
     "id": 37,
     "category": 9,
@@ -478,8 +478,8 @@
     "migrant": 0,
     "endemic": 0,
     "code": "",
-	"wikipedia": "https://en.wikipedia.org/wiki/Tufted_duck"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Tufted_duck"
+  },
   {
     "id": 38,
     "category": 10,
@@ -491,60 +491,60 @@
     "migrant": 1,
     "endemic": 0,
     "code": "SM",
-	"wikipedia": "https://en.wikipedia.org/wiki/Crested_honey_buzzard"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Crested_honey_buzzard"
+  },
   {
     "id": 39,
     "category": 10,
-    "name": "Oriental Honey-Buzzard",
-    "sinhala": "සිලුවැති බඹරුකුස්සා",
-    "scientific": "Pernis Ptilorhynchus Orientails",
-    "image": "oriental_honey_buzzard.jpg",
+    "name": "Oriental Honey-Buzzard(Indian)",
+    "sinhala": "සිලුවැති බඹරඋකුස්සා",
+    "scientific": "Pernis Ptilorhynchus Ruficollis",
+    "image": "oriental_honey_buzzard_ind.jpg",
     "desc": "The crested honey buzzard is a bird of prey in the family Accipitridae, which also includes many other diurnal raptors such as kites, eagles, and harriers. This species is also known as the Oriental honey buzzard.",
-    "migrant": 1,
+    "migrant": 0,
     "endemic": 0,
-    "code": "URSM",
-	"wikipedia": "https://en.wikipedia.org/wiki/Crested_honey_buzzard"
-  }
+    "code": "UR",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crested_honey_buzzard"
+  },
   {
     "id": 40,
     "category": 10,
     "name": "Black-Shouldered Kite",
-    "sinhala": "උරිස් කළු පතනුකුස්සා",
+    "sinhala": "උරිස් කළු පතනුඋකුස්සා",
     "scientific": "Elanus Caeruleus Vociferus",
     "image": "black_shouldered_kite.jpg",
     "desc": "The black-shouldered kite, also known as the Australian black-shouldered kite, is a small raptor found in open habitat throughout Australia. It resembles similar species found in Africa, Eurasia and North America, including the black-winged kite, a species that has in the past also been called 'black-shouldered kite'. Measuring around 35 cm (14 in) in length with a wingspan of 80–100 cm (31–39 in), the adult black-shouldered kite has predominantly grey-white plumage and prominent black markings above its red eyes.",
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Black-shouldered_kite"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Black-shouldered_kite"
+  },
   {
     "id": 41,
     "category": 10,
     "name": "Black Kite",
-    "sinhala": "බොර පරකුස්සා",
+    "sinhala": "බොර පරඋකුස්සා",
     "scientific": "Milvus Migrans Govinda",
     "image": "black_kite.jpg",
     "desc": "The black kite is a medium-sized bird of prey in the family Accipitridae, which also includes many other diurnal raptors. It is thought to be the world's most abundant species of Accipitridae, although some populations have experienced dramatic declines or fluctuations. Current global population estimates run up to 6 million individuals. Unlike others of the group, black kites are opportunistic hunters and are more likely to scavenge. They spend a lot of time soaring and gliding in thermals in search of food.",
     "migrant": 1,
     "endemic": 0,
     "code": "SRM",
-	"wikipedia": "https://en.wikipedia.org/wiki/Black_kite"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_kite"
+  },
   {
     "id": 42,
     "category": 10,
     "name": "Brahminy Kite",
-    "sinhala": "බමුණු පියාකුස්සා",
+    "sinhala": "බමුණු පියාඋකුස්සා",
     "scientific": "Haliastur Indus Indus",
     "image": "brahminy_kite.jpg",
     "desc": "The brahminy kite, also known as the red-backed sea-eagle in Australia, is a medium-sized bird of prey in the family Accipitridae, which also includes many other diurnal raptors, such as eagles, buzzards, and harriers. They are found in the Indian subcontinent, Southeast Asia, and Australia. They are found mainly on the coast and in inland wetlands, where they feed on dead fish and other prey. Adults have a reddish-brown body plumage contrasting with their white head and breast which make them easy to distinguish from other birds of prey.",
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Brahminy_kite"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Brahminy_kite"
+  },
   {
     "id": 43,
     "category": 10,
@@ -556,47 +556,47 @@
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/White-bellied_sea_eagle"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/White-bellied_sea_eagle"
+  },
   {
     "id": 44,
     "category": 10,
     "name": "Grey-headed Fish Eagle",
-    "sinhala": "රජ අළුහිස් මසුකුස්සා",
+    "sinhala": "රජ අළුහිස් මසුඋකුස්සා",
     "scientific": "Icthyophaga Icthyaetus",
     "image": "grey_headed_fish_eagle.jpg",
     "desc": "The grey-headed fish eagle is a fish-eating bird of prey from South East Asia. It is a large stocky raptor with adults having dark brown upper body, grey head and lighter underbelly and white legs. Juveniles are paler with darker streaking. It is often confused with the lesser fish eagle (Haliaeetus humilis) and the Pallas's fish eagle. The lesser fish eagle is similar in plumage but smaller and the Pallas’s fish eagle shares the same habitat and feeding behaviour but is larger with longer wings and darker underparts. Is often called tank eagle in Sri Lanka due to its fondness for irrigation tanks.",
     "migrant": 0,
     "endemic": 0,
     "code": "SR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Grey-headed_fish_eagle"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Grey-headed_fish_eagle"
+  },
   {
     "id": 45,
     "category": 10,
     "name": "Crested Serpent Eagle",
-    "sinhala": "සිළු සරපකුස්සා",
+    "sinhala": "සිළු සරපඋකුස්සා",
     "scientific": "Spilornis Cheela Spilogaster",
     "image": "crested_serpent_eagle.jpg",
     "desc": "The crested serpent eagle is a medium-sized bird of prey that is found in forested habitats across tropical Asia. Within its widespread range across the Indian Subcontinent, Southeast Asia and East Asia, there are considerable variations and some authorities prefer to treat several of its subspecies as completely separate species.",
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Crested_serpent_eagle"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Crested_serpent_eagle"
+  },
   {
     "id": 46,
     "category": 10,
     "name": "Pallid Harrier",
-    "sinhala": "සුදුමැලි හැරිකුස්සා",
+    "sinhala": "සුදුමැලි හැරිඋකුස්සා",
     "scientific": "Circus Macrourus",
     "image": "pallid_harrier.jpg",
     "desc": "The pale or pallid harrier is a migratory bird of prey of the harrier family. The scientific name is derived from the Ancient Greek. It breeds in southern parts of eastern Europe and central Asia (such as Iran) and winters mainly in India and southeast Asia. It is a very rare vagrant to Great Britain and western Europe.",
     "migrant": 1,
     "endemic": 0,
     "code": "UM",
-	"wikipedia": "https://en.wikipedia.org/wiki/Pallid_harrier"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Pallid_harrier"
+  },
   {
     "id": 47,
     "category": 10,
@@ -608,34 +608,34 @@
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Shikra"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Shikra"
+  },
   {
     "id": 48,
     "category": 10,
     "name": "Common Buzzard",
-    "sinhala": "යුරාසියා ලැසිකුස්සා",
+    "sinhala": "යුරාසියා ලැසි උකුස්සා",
     "scientific": "Buteo Buteo Japonicus",
     "image": "common_buzzard.jpg",
     "desc": "The common buzzard is a medium-to-large bird of prey whose range covers most of Europe and extends into Asia. Over much of its range, it is resident year-round, but birds from the colder parts of the Northern Hemisphere typically migrate south (some well into the Southern Hemisphere) for the northern winter.",
     "migrant": 1,
     "endemic": 0,
     "code": "SM",
-	"wikipedia": "https://en.wikipedia.org/wiki/Common_buzzard"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Common_buzzard"
+  },
   {
     "id": 49,
     "category": 10,
     "name": "Black Eagle",
-    "sinhala": "කළුකුස්සා",
+    "sinhala": "කළු උකුස්සා",
     "scientific": "Ictinaetus Malayensis Perniger",
     "image": "black_eagle.jpg",
     "desc": "The black eagle is a bird of prey. Like all eagles, it is in the family Accipitridae, and is the only member of the genus Ictinaetus. They soar over forests in the hilly regions of tropical and subtropical South and Southeast Asia, as well as southeastern China. They hunt mammals and birds, particularly at their nests. They are easily identified by their widely splayed and long primary 'fingers', the characteristic silhouette, slow flight and yellow ceres and legs that contrast with their dark feathers.",
     "migrant": 0,
     "endemic": 0,
     "code": "UR",
-	"wikipedia": "https://en.wikipedia.org/wiki/Black_eagle"
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_eagle"
+  },
   {
     "id": 50,
     "category": 10,
@@ -647,6 +647,149 @@
     "migrant": 0,
     "endemic": 0,
     "code": "R",
-	"wikipedia": "https://en.wikipedia.org/wiki/Changeable_hawk-eagle"
+    "wikipedia": "https://en.wikipedia.org/wiki/Changeable_hawk-eagle"
+  },
+  {
+    "id": 51,
+    "category": 10,
+    "name": "Mountain Hawk Eagle",
+    "sinhala": "හෙල් කොණ්ඩ උකුස්සා",
+    "scientific": "Spizaetus Nipalensis Kelaarti",
+    "image": "mountain_hawk_eagle.jpg",
+    "desc": "The mountain hawk-eagle or Hodgson's hawk-eagle (Nisaetus nipalensis, earlier treated under Spizaetus) is a bird of prey. Like all eagles, it is in the family Accipitridae. It breeds in the Indian subcontinent, from India, Nepal (hence the epithet nipalensis) through Bangladesh to Thailand, Taiwan, Indonesia and Japan.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "SR",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mountain_hawk-eagle"
+  },
+  {
+    "id": 52,
+    "category": 11,
+    "name": "Common Kestrel",
+    "sinhala": "පරි සාරිඋකුස්සා",
+    "scientific": "Falco Tinnunculus Tinnunculus",
+    "image": "common_kestrel.jpg",
+    "desc": "The common kestrel is a bird of prey species belonging to the kestrel group of the falcon family Falconidae. It is also known as the European kestrel, Eurasian kestrel, or Old World kestrel. In Britain, where no other kestrel species occurs, it is generally just called 'the kestrel'.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "UM",
+    "wikipedia": "https://en.wikipedia.org/wiki/Common_kestrel"
+  },
+  {
+    "id": 53,
+    "category": 12,
+    "name": "Grey Francolin",
+    "sinhala": "අළු වටු-කුකුළා",
+    "scientific": "Francolinus Pondicerianus Pondicerianus",
+    "image": "grey_francolin.jpg",
+    "desc": "The grey francolin is a species of francolin found in the plains and drier parts of the Indian subcontinent. This species was formerly also called the grey partridge, not to be confused with the European grey partridge. They are found in open cultivated lands as well as scrub forest and their local name of teetar is based on their calls, a loud and repeated Ka-tee-tar...tee-tar which is produced by one or more birds. The term teetar can also refer to other partridges and quails. During the breeding season calling males attract challengers and decoys were used to trap these birds especially for fighting.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "UR",
+    "wikipedia": "https://en.wikipedia.org/wiki/Grey_francolin"
+  },
+  {
+    "id": 54,
+    "category": 12,
+    "name": "Ceylon Junglefowl",
+    "sinhala": "ශ්‍රී ලංකා වලි-කුකුළා",
+    "scientific": "Gallus Lafayettii",
+    "image": "ceylon_junglefowl.jpg",
+    "desc": "The Sri Lankan junglefowl, also known as the Ceylon junglefowl, is a member of the Galliformes bird order which is endemic to Sri Lanka, where it is the national bird. It is closely related to the red junglefowl (G. gallus), the wild junglefowl from which the chicken was domesticated. The specific name of the Sri Lankan junglefowl commemorates the French aristocrat Gilbert du Motier, marquis de La Fayette.",
+    "migrant": 0,
+    "endemic": 1,
+    "code": "CE",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sri_Lankan_junglefowl"
+  },
+  {
+    "id": 55,
+    "category": 12,
+    "name": "Indian Peafowl",
+    "sinhala": "මොනරා",
+    "scientific": "Pavo Cristatus",
+    "image": "indian_peafowl.jpg",
+    "desc": "The Indian peafowl or blue peafowl, a large and brightly coloured bird, is a species of peafowl native to South Asia, but introduced in many other parts of the world. The male, or peacock, is predominantly blue with a fan-like crest of spatula-tipped wire-like feathers and is best known for the long train made up of elongated upper-tail covert feathers which bear colourful eyespots. These stiff feathers are raised into a fan and quivered in a display during courtship. Despite the length and size of these covert feathers, peacocks are still capable of flight.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+    "wikipedia": "https://en.wikipedia.org/wiki/Indian_peafowl"
+  },
+  {
+    "id": 56,
+    "category": 13,
+    "name": "Barred Buttonquail",
+    "sinhala": "බෝල වටුයුරුවා",
+    "scientific": "Turnix Suscitator Leggei",
+    "image": "barred_buttonquail.jpg",
+    "desc": "The barred buttonquail or common bustard-quail is a buttonquail, one of a small family of birds which resemble, but are unrelated to, the true quails. This species is resident from India across tropical Asia to south China, Indonesia and the Philippines.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "UR",
+    "wikipedia": "https://en.wikipedia.org/wiki/Barred_buttonquail"
+  },
+  {
+    "id": 57,
+    "category": 14,
+    "name": "White-Breasted Waterhen",
+    "sinhala": "ළය සුදු කොරවක්කා",
+    "scientific": "Amaurornis phoenicurus phoenicurus",
+    "image": "white_breasted_waterhen.jpg",
+    "desc": "The white-breasted waterhen is a waterbird of the rail and crake family, Rallidae, that is widely distributed across South and Southeast Asia. They are dark slaty birds with a clean white face, breast and belly. They are somewhat bolder than most other rails and are often seen stepping slowly with their tail cocked upright in open marshes or even drains near busy roads. They are largely crepuscular in activity and during the breeding season, just after the first rains, make loud and repetitive croaking calls.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "CR",
+    "wikipedia": "https://en.wikipedia.org/wiki/White-breasted_waterhen"
+  },
+  {
+    "id": 58,
+    "category": 14,
+    "name": "Common Moorhen",
+    "sinhala": "පොදු ගැලිනුවා",
+    "scientific": "Gallinula Chloropus Indica",
+    "image": "common_moorhen.jpg",
+    "desc": "The common moorhen (also known as the waterhen and as the swamp chicken) is a bird species in the family Rallidae. It is distributed across many parts of the Old World. The common moorhen lives around well-vegetated marshes, ponds, canals and other wetlands. The species is not found in the polar regions or many tropical rainforests.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+    "wikipedia": "https://en.wikipedia.org/wiki/Common_moorhen"
+  },
+  {
+    "id": 59,
+    "category": 14,
+    "name": "Purple Swamphen",
+    "sinhala": "පොදු දම් කිතලා",
+    "scientific": "Porphyrio Porphyrio Poliocephalus",
+    "image": "purple_swamphen.jpg",
+    "desc": "The western swamphen is a swamphen in the rail family Rallidae, one of the six species of purple swamphen. From the French name talève sultane, it is also known as the sultana bird. This chicken-sized bird, with its large feet, bright plumage and red bill and frontal shield is easily recognisable in its native range. It used to be considered the nominate subspecies of the purple swamphen. It is found on the Iberian Peninsula, in France, Sardinia and western North Africa to Tunisia.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+    "wikipedia": "https://en.wikipedia.org/wiki/Western_swamphen"
+  },
+  {
+    "id": 60,
+    "category": 14,
+    "name": "Watercock",
+    "sinhala": "කෝරා",
+    "scientific": "Gallicrex Cinerea Cinerea",
+    "image": "watercock.jpg",
+    "desc": "The watercock is a waterbird in the rail and crake family, Rallidae. It is the only member of the genus Gallicrex. Traditionally held to be closely related to moorhens (which the adult male visually closely resembles), it is actually member of a mostly tropical Asian clade containing also Aenigmatolimnas, Amaurornis, Himantornis and Megacrex.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "URSM",
+    "wikipedia": "https://en.wikipedia.org/wiki/Watercock"
+  },
+  {
+    "id": 61,
+    "category": 14,
+    "name": "Common Coot",
+    "sinhala": "පොදු කළු කිතලා",
+    "scientific": "Fulica Atra Atra",
+    "image": "common_coot.jpg",
+    "desc": "The Eurasian coot, also known as the common coot, is a member of the rail and crake bird family, the Rallidae. The scientific name is from Latin; Fulica is 'coot', and atra is 'black'. It is found in Europe, Asia, Australia and parts of Africa. The Australian subspecies is known as the Australian coot.",
+    "migrant": 1,
+    "endemic": 0,
+    "code": "URSM",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eurasian_coot"
   }
 ]
