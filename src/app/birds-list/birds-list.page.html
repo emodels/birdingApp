@@ -18,7 +18,7 @@
     <ion-list>
         <ion-list-header>
             <ion-label class="ion-padding-bottom">Enlarge Images</ion-label>
-            <ion-toggle [(ngModel)]="enlargeImages" class="ion-padding-bottom"></ion-toggle>
+            <ion-toggle [(ngModel)]="enlargeImages" class="ion-padding-bottom" color="success"></ion-toggle>
         </ion-list-header>
 
         <ion-item-divider color="medium">
@@ -36,18 +36,14 @@
             </ion-item>
         </ion-virtual-scroll>
 
-        <ion-virtual-scroll [items]="birds" *ngIf="enlargeImages">
-            <ion-item *virtualItem="let bird; let itemBounds = bounds;" (click)="viewBird(bird)" button="true" detail="true">
-
-                <ion-card>
-                    <ion-img [src]="'assets/images/' + bird.image" style="height: 200px"></ion-img>
-                    <ion-card-header>
-                        <ion-card-title>{{bird.name}} / {{bird.sinhala}}</ion-card-title>
-                    </ion-card-header>
-                </ion-card>
-
-            </ion-item>
-        </ion-virtual-scroll>
+        <ion-item *ngFor="let bird of birds" (click)="viewBird(bird)" button="true" detail="true">
+            <ion-card *ngIf="enlargeImages">
+                <ion-img [src]="'assets/images/' + bird.image"></ion-img>
+                <ion-card-header>
+                    <ion-card-title>{{bird.name}} / {{bird.sinhala}}</ion-card-title>
+                </ion-card-header>
+            </ion-card>
+        </ion-item>
 
     </ion-list>
 
