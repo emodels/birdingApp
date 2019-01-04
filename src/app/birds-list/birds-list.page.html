@@ -36,15 +36,16 @@
             </ion-item>
         </ion-virtual-scroll>
 
-        <ion-item *ngFor="let bird of birds" (click)="viewBird(bird)" button="true" detail="true">
-            <ion-card *ngIf="enlargeImages">
-                <ion-img [src]="'assets/images/' + bird.image"></ion-img>
-                <ion-card-header>
-                    <ion-card-title>{{bird.name}} / {{bird.sinhala}}</ion-card-title>
-                </ion-card-header>
-            </ion-card>
-        </ion-item>
-
+        <div *ngIf="enlargeImages">
+            <ion-item *ngFor="let bird of birds" (click)="viewBird(bird)" button="true" detail="true">
+                <ion-card>
+                    <ion-img [src]="'assets/images/' + bird.image"></ion-img>
+                    <ion-card-header>
+                        <ion-card-title>{{bird.name}} / {{bird.sinhala}}</ion-card-title>
+                    </ion-card-header>
+                </ion-card>
+            </ion-item>
+        </div>
     </ion-list>
 
 </ion-content>
