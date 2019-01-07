@@ -1,0 +1,27 @@
+# This file is a template, and might need editing before it works on your project.
+# Official framework image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/node/tags/
+image: node:latest
+
+stages:
+  - build
+  - deploy
+
+before_script:
+  - npm install
+  - npm install -g @angular/cli
+  
+app-build:
+  stage: build
+  script:
+  - ng build --prod
+  artifacts:
+    paths:
+     - www/
+
+deploy_ftp:
+  stage: deploy
+  script:
+  - apt-get update
+  - apt-get install ncftp
+  - ncftpput -v -u "emodelsl" -p "q3s8tP1Aa9" -R emodelslanka.com app.birdwatchinginsrilanka.com www
