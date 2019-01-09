@@ -1,6 +1,8 @@
 {
   "name": "birdingApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "c4a992b4"
 }
