@@ -2849,7 +2849,7 @@
   {
     "id": 221,
     "category": 51,
-    "name": "White-browed Fantail",
+    "name": "White-Browed Fantail",
     "sinhala": "බැමසුදු පවන්පෙන්දා",
     "scientific": "Rhipidura Aureola Compressirostris",
     "image": "white_browed_fantail.jpg",
@@ -2953,7 +2953,7 @@
   {
     "id": 229,
     "category": 53,
-    "name": "Yellow-billed Babbler",
+    "name": "Yellow-Billed Babbler",
     "sinhala": "දෙමලිච්චා",
     "scientific": "Turdoides Affinis Taprobanus",
     "image": "yellow_billed_babbler.jpg",
@@ -3326,5 +3326,83 @@
     "endemic": 0,
     "code": "R",
     "wikipedia": "https://en.wikipedia.org/wiki/Common_hill_myna"
+  },
+  {
+    "id": 258,
+    "category": 65,
+    "name": "House Sparrow",
+    "sinhala": "ගේ කුරුල්ලා",
+    "scientific": "Passer Domesticus Indicus",
+    "image": "house_sparrow.jpg",
+    "desc": "The house sparrow is a bird of the sparrow family Passeridae, found in most parts of the world. A small bird, it has a typical length of 16 cm (6.3 in) and a mass of 24–39.5 g (0.85–1.39 oz). Females and young birds are coloured pale brown and grey, and males have brighter black, white, and brown markings. One of about 25 species in the genus Passer, the house sparrow is native to most of Europe, the Mediterranean Basin, and much of Asia.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+    "wikipedia": "https://en.wikipedia.org/wiki/House_sparrow"
+  },
+  {
+    "id": 259,
+    "category": 66,
+    "name": "Baya Weaver",
+    "sinhala": "රුක් වඩු කුරුල්ලා",
+    "scientific": "Ploceus Philippinus Philippinus",
+    "image": "baya_weaver.jpg",
+    "desc": "The baya weaver is a weaverbird found across the Indian Subcontinent and Southeast Asia. These are sparrow-sized (15 cm) and in their non-breeding plumage, both males and females resemble female house sparrows. They have a stout conical bill and a short square tail. Non-breeding males and females look alike, dark brown streaked fulvous buff above, plain (unstreaked) whitish fulvous below, eyebrow long and buff coloured, bill is horn coloured and no mask. Breeding males have a bright yellow crown, dark brown mask, blackish brown bill, upper parts are dark brown streaked with yellow, with a yellow breast and cream buff below.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+    "wikipedia": "https://en.wikipedia.org/wiki/Baya_weaver"
+  },
+  {
+    "id": 260,
+    "category": 67,
+    "name": "Indian Silverbill",
+    "sinhala": "ගෙල සුදු වීකුරුල්ලා",
+    "scientific": "Ploceus Philippinus Philippinus",
+    "image": "indian_silverbill.jpg",
+    "desc": "The Indian silverbill or white-throated munia (Euodice malabarica) is a small passerine bird found in the Indian Subcontinent and adjoining regions that was formerly considered to include the closely related African silverbill  The adult Indian silverbill is 11–11.5 cm long and has a conical silver-grey bill, buff-brown upperparts, white underparts, buffy flanks and dark wings. The tail is black and the wings are dark contrasting with a white rump. The sexes are similar, but immatures have buff underparts and a shorter tail. The tail appears pointed as the length of the feathers reduces from the centre outwards.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "UR",
+    "wikipedia": "https://en.wikipedia.org/wiki/Indian_silverbill"
+  },
+  {
+    "id": 261,
+    "category": 67,
+    "name": "White-Rumped Munia",
+    "sinhala": "නිතඹ සුදු වීකුරුල්ලා",
+    "scientific": "Lonchura Striata Striata",
+    "image": "white_rumped_munia.jpg",
+    "desc": "The white-rumped munia or white-rumped mannikin, sometimes called striated finch in aviculture, is a small passerine bird from the family of waxbill 'finches'. It is native to tropical continental Asia and some adjacent islands, and has been naturalized in some parts of Japan. The white-rumped munia is approximately 10 to 11 cm in length, with a stubby grey bill and a long black pointed tail. The adults are brown above and on the breast, and lighter below; the rump is white. There is some variation between the subspecies, but the sexes are almost impossible to distinguish in all subspecies; males have a more bulky head and bill.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+    "wikipedia": "https://en.wikipedia.org/wiki/White-rumped_munia"
+  },
+  {
+    "id": 262,
+    "category": 67,
+    "name": "Scaly-Breasted Munia",
+    "sinhala": "ළය කායුරු වීකුරුල්ලා",
+    "scientific": "Lonchura Punctulata Punctulata",
+    "image": "scaly_breasted_munia.jpg",
+    "desc": "The scaly-breasted munia or spotted munia, known in the pet trade as nutmeg mannikin or spice finch, is a sparrow-sized estrildid finch native to tropical Asia. The species is endemic to Asia and occurs from India and Sri Lanka east to Indonesia and the Philippines. The scaly-breasted munia is about 11–12 centimetres (4.3–4.7 in) long and weighs 12–16 grams (0.026–0.035 lb). The adult has a stubby dark bill typical of grain eating birds, brown upperparts and a dark brown head. The underparts are white with dark scale markings. The sexes are similar, although males have darker markings on the underside and a darker throat than females.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "R",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scaly-breasted_munia"
+  },
+  {
+    "id": 263,
+    "category": 67,
+    "name": "Black-Throated Munia",
+    "sinhala": "ගෙළ කළු වීකුරුල්ලා",
+    "scientific": "Lonchura Kelaarti Kelaarti",
+    "image": "black_throated_munia.jpg",
+    "desc": "The black-throated munia or Jerdon's mannikin is a small passerine bird. This estrildid finch is a resident breeding bird in the hills of southwest India, the Eastern Ghats and Sri Lanka. The black-throated munia is 12 cm in length with a long black tail. The adult of the southwest Indian population, L. k. jerdoni, has a stubby grey bill, dark brown upperparts with pale shaft streaks; a blackish face and bib; and pinkish brown underparts with scaly marking towards the vent. The Eastern Ghats form vernayi has paler pinkish underparts. The nominate form L. k. kelaarti of Sri Lanka has scaly patterning on the underparts and vent with the pale almost whitish shaft streaks contrasting on the darker back. The sexes are similar in all populations, but immatures lack the darker face and have more uniform underparts.",
+    "migrant": 0,
+    "endemic": 0,
+    "code": "UR",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black-throated_munia"
   }
 ]
